@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fach - Lernportal</title>
+    <link rel="stylesheet" href="../../../assets/css/base.css">
+    <link rel="stylesheet" href="../../../assets/css/components.css">
+    <link rel="stylesheet" href="../../../assets/css/theme.css">
+    <script type="module" src="../../../assets/js/app.js"></script>
+</head>
+<body>
+    <header class="site-header">
+        <a href="../../../index.html" class="site-logo">🎓 Lernportal</a>
+        <nav class="site-nav">
+            <ul>
+                <li><button id="open-editor-btn" class="btn btn-secondary" style="font-size: 0.9rem; padding: 0.25rem 0.5rem;">Inhalte hinzufügen (Beta)</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="breadcrumbs">
+            <a href="../../../index.html">Startseite</a>
+            <span>/</span>
+            <a href="../index.html">Klasse 7</a>
+            <span>/</span>
+            <span id="bc-subject">Laden...</span>
+        </div>
+
+        <div class="subject-header">
+            <div>
+                <h1 id="subject-title" style="margin-bottom: 0;">Laden...</h1>
+            </div>
+            <div class="search-container" style="margin-bottom: 0;">
+                <input type="text" id="search-input" class="search-input" placeholder="Themen durchsuchen...">
+            </div>
+        </div>
+
+        <!-- Injected Content -->
+        <!-- Data attributes are used by app.js to fetch the right JSON -->
+        <div id="subject-content" data-grade="7" data-subject="biologie">
+            <div class="text-center mt-4">Lade Inhalte...</div>
+        </div>
+    </main>
+
+    <!-- Content Editor Modal MVP -->
+    <div class="modal-overlay" id="editor-modal">
+        <div class="modal-content">
+            <button class="modal-close" id="close-editor">&times;</button>
+            <h2>Neues Thema erstellen</h2>
+            <p style="font-size: 0.9rem; color: var(--color-text-light); margin-bottom: 1rem;">
+                Füge hier ein neues Thema hinzu. Beim Export wird eine JSON-Datei heruntergeladen,
+                die du lokal in den Ordner <code>/data/grade-7/</code> kopieren und die alte Datei ersetzen musst.
+                Später kann dies über ein PHP-Backend automatisiert werden.
+            </p>
+
+            <form id="editor-form" onsubmit="event.preventDefault();">
+                <div class="form-group">
+                    <label for="topic-title">Thema Titel</label>
+                    <input type="text" id="topic-title" class="form-control" placeholder="z.B. Satz des Pythagoras" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="topic-summary">Zusammenfassung (jeder Satz eine neue Zeile)</label>
+                    <textarea id="topic-summary" class="form-control" placeholder="Punkt 1&#10;Punkt 2&#10;Punkt 3" required></textarea>
+                </div>
+
+                <hr style="margin: 1.5rem 0; border: none; border-top: 1px solid var(--color-border);">
+                <h3>Lernkarte 1</h3>
+                <div class="form-group">
+                    <label for="fc-q">Frage</label>
+                    <input type="text" id="fc-q" class="form-control" placeholder="Frage der Lernkarte">
+                </div>
+                <div class="form-group">
+                    <label for="fc-a">Antwort</label>
+                    <input type="text" id="fc-a" class="form-control" placeholder="Antwort der Lernkarte">
+                </div>
+
+                <hr style="margin: 1.5rem 0; border: none; border-top: 1px solid var(--color-border);">
+                <h3>Quiz Frage 1</h3>
+                <div class="form-group">
+                    <label for="quiz-q">Frage</label>
+                    <input type="text" id="quiz-q" class="form-control" placeholder="Quiz Frage">
+                </div>
+                <div class="form-group">
+                    <label for="quiz-c1">Antwort 1 (0)</label>
+                    <input type="text" id="quiz-c1" class="form-control" placeholder="Antwortmöglichkeit 1">
+                </div>
+                <div class="form-group">
+                    <label for="quiz-c2">Antwort 2 (1)</label>
+                    <input type="text" id="quiz-c2" class="form-control" placeholder="Antwortmöglichkeit 2">
+                </div>
+                <div class="form-group">
+                    <label for="quiz-c3">Antwort 3 (2)</label>
+                    <input type="text" id="quiz-c3" class="form-control" placeholder="Antwortmöglichkeit 3">
+                </div>
+                <div class="form-group">
+                    <label for="quiz-c4">Antwort 4 (3)</label>
+                    <input type="text" id="quiz-c4" class="form-control" placeholder="Antwortmöglichkeit 4">
+                </div>
+                <div class="form-group">
+                    <label for="quiz-answer">Index der richtigen Antwort (0-3)</label>
+                    <input type="number" id="quiz-answer" class="form-control" min="0" max="3" value="0">
+                </div>
+                <div class="form-group">
+                    <label for="quiz-exp">Erklärung</label>
+                    <input type="text" id="quiz-exp" class="form-control" placeholder="Erklärung für die richtige Antwort">
+                </div>
+
+                <div class="mt-4" style="display:flex; justify-content:flex-end; gap:1rem;">
+                    <button type="button" class="btn btn-primary" id="export-json">JSON exportieren</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

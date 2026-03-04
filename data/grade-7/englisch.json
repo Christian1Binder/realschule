@@ -1,0 +1,114 @@
+{
+  "grade": 7,
+  "subject": "Englisch",
+  "slug": "englisch",
+  "accent": "#ef4444",
+  "topics": [
+    {
+      "id": "eng-001",
+      "title": "Simple Past vs. Present Perfect",
+      "summary": [
+        "Simple Past: Handlungen, die in der Vergangenheit abgeschlossen sind. (Signalwörter: yesterday, last week, in 2010)",
+        "Present Perfect: Handlungen in der Vergangenheit, deren Folgen bis heute anhalten, oder Erfahrungen ohne genaue Zeitangabe. (Signalwörter: ever, never, just, already, yet)",
+        "Bildung Simple Past: Infinitiv + -ed (oder unregelmäßige Verben).",
+        "Bildung Present Perfect: have/has + Past Participle (3. Form)."
+      ],
+      "flashcards": [
+        {"q": "Wann benutzt man das Simple Past?", "a": "Für abgeschlossene Handlungen in der Vergangenheit."},
+        {"q": "Wann benutzt man das Present Perfect?", "a": "Wenn eine Handlung bis in die Gegenwart reicht oder das Ergebnis jetzt wichtig ist."},
+        {"q": "Welches Hilfsverb bildet das Present Perfect?", "a": "have / has."}
+      ],
+      "quiz": [
+        {
+          "question": "Welche Zeitform passt zu 'yesterday'?",
+          "choices": ["Present Perfect", "Simple Past", "Present Progressive", "Will-Future"],
+          "answerIndex": 1,
+          "explanation": "'yesterday' beschreibt einen abgeschlossenen Zeitpunkt in der Vergangenheit."
+        },
+        {
+          "question": "Wie bildet man das Present Perfect von 'go'?",
+          "choices": ["went", "have/has gone", "going", "have/has went"],
+          "answerIndex": 1,
+          "explanation": "have/has + past participle (3. Spalte): go - went - gone."
+        },
+        {
+          "question": "Welches Signalwort passt am besten zum Present Perfect?",
+          "choices": ["last year", "already", "tomorrow", "usually"],
+          "answerIndex": 1,
+          "explanation": "'already' drückt aus, dass etwas schon geschehen ist, was typisch für das Present Perfect ist."
+        }
+      ]
+    },
+    {
+      "id": "eng-002",
+      "title": "Question Forms (Fragen bilden)",
+      "summary": [
+        "Entscheidungsfragen (Ja/Nein): Hilfsverb (do/does, is/are, can) + Subjekt + Vollverb.",
+        "Beispiel: Do you like pizza? Are they listening?",
+        "W-Fragen: Fragewort (Who, What, Where, When, Why, How) + Hilfsverb + Subjekt + Vollverb.",
+        "Beispiel: Where do you live? What is she doing?",
+        "Subjektfragen (Ausnahme!): Wenn nach dem Subjekt gefragt wird, fällt 'do' weg. (Who called you? NICHT: Who did call you?)"
+      ],
+      "flashcards": [
+        {"q": "Welches Hilfsverb braucht man für Fragen im Simple Present (ohne 'to be')?", "a": "do / does"},
+        {"q": "Wie fragt man nach dem Ort?", "a": "Where...?"},
+        {"q": "Was ist die Besonderheit bei Subjektfragen?", "a": "Es wird kein Hilfsverb (do/does/did) verwendet. (z.B. Who did this?)"}
+      ],
+      "quiz": [
+        {
+          "question": "Welcher Satz ist grammatikalisch korrekt?",
+          "choices": ["Where you live?", "Where do you live?", "Where live you?", "Where does you live?"],
+          "answerIndex": 1,
+          "explanation": "Fragewort (Where) + Hilfsverb (do) + Subjekt (you) + Verb (live)."
+        },
+        {
+          "question": "Welches Hilfsverb benutzt man für 'he/she/it' im Simple Present?",
+          "choices": ["do", "did", "does", "done"],
+          "answerIndex": 2,
+          "explanation": "Für he/she/it wird 'does' verwendet."
+        },
+        {
+          "question": "Welche Frage ist eine Subjektfrage (ohne Hilfsverb 'do/did')?",
+          "choices": ["Who did you see?", "What do you want?", "Who called yesterday?", "Where did they go?"],
+          "answerIndex": 2,
+          "explanation": "'Who' fragt hier nach der Person, die angerufen hat (dem Subjekt)."
+        }
+      ]
+    },
+    {
+      "id": "eng-003",
+      "title": "Vocabulary: School & Hobbies",
+      "summary": [
+        "Schulfächer: Maths, English, Science, PE (Physical Education), Geography, History.",
+        "Orte: Classroom, Library, Canteen, Gym, Playground.",
+        "Aktivitäten (Hobbies): Playing football, reading books, listening to music, drawing, swimming.",
+        "Ausdrücke: 'I am good at...', 'I prefer... to...', 'My favourite subject is...'"
+      ],
+      "flashcards": [
+        {"q": "Was heißt 'Sport' als Schulfach?", "a": "PE (Physical Education)"},
+        {"q": "Wie sagst du 'Ich bin gut in Mathe'?", "a": "I am good at Maths."},
+        {"q": "Was bedeutet 'library'?", "a": "Bücherei / Bibliothek."}
+      ],
+      "quiz": [
+        {
+          "question": "Wo essen Schüler oft in der Schule?",
+          "choices": ["Library", "Canteen", "Gym", "Classroom"],
+          "answerIndex": 1,
+          "explanation": "Canteen bedeutet Kantine oder Mensa."
+        },
+        {
+          "question": "Welches Wort passt NICHT in die Reihe?",
+          "choices": ["Maths", "Science", "Swimming", "History"],
+          "answerIndex": 2,
+          "explanation": "Swimming ist ein Hobby, die anderen sind Schulfächer."
+        },
+        {
+          "question": "Was heißt 'zeichnen' auf Englisch?",
+          "choices": ["listening", "reading", "playing", "drawing"],
+          "answerIndex": 3,
+          "explanation": "Drawing ist das englische Wort für zeichnen."
+        }
+      ]
+    }
+  ]
+}

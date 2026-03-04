@@ -1,0 +1,112 @@
+{
+  "grade": 7,
+  "subject": "Mathematik",
+  "slug": "mathematik",
+  "accent": "#4f46e5",
+  "topics": [
+    {
+      "id": "math-001",
+      "title": "Brüche: Kürzen & Erweitern",
+      "summary": [
+        "Ein Bruch besteht aus Zähler (oben) und Nenner (unten).",
+        "Kürzen: Zähler und Nenner durch dieselbe Zahl teilen. Der Wert bleibt gleich.",
+        "Erweitern: Zähler und Nenner mit derselben Zahl multiplizieren. Der Wert bleibt gleich."
+      ],
+      "flashcards": [
+        {"q": "Was bedeutet 'kürzen' bei Brüchen?", "a": "Zähler und Nenner durch dieselbe Zahl teilen."},
+        {"q": "Wann sind zwei Brüche gleichwertig?", "a": "Wenn sie durch Erweitern oder Kürzen ineinander überführbar sind."},
+        {"q": "Was ist der Hauptnenner?", "a": "Das kleinste gemeinsame Vielfache (kgV) der Nenner zweier oder mehrerer Brüche."}
+      ],
+      "quiz": [
+        {
+          "question": "Wie kürzt man 6/12 vollständig?",
+          "choices": ["1/3", "1/2", "3/6", "2/3"],
+          "answerIndex": 1,
+          "explanation": "Beide durch 6 teilen ergibt 1/2."
+        },
+        {
+          "question": "Womit wurde 2/5 erweitert, um 8/20 zu erhalten?",
+          "choices": ["Mit 2", "Mit 3", "Mit 4", "Mit 5"],
+          "answerIndex": 2,
+          "explanation": "2 * 4 = 8 und 5 * 4 = 20."
+        },
+        {
+          "question": "Ist 3/4 gleichwertig zu 9/12?",
+          "choices": ["Ja", "Nein", "Nur manchmal", "Weiß nicht"],
+          "answerIndex": 0,
+          "explanation": "Ja, 3/4 mit 3 erweitert ergibt 9/12."
+        }
+      ]
+    },
+    {
+      "id": "math-002",
+      "title": "Prozentrechnung: Grundlagen",
+      "summary": [
+        "Prozent bedeutet 'von Hundert' (%). 1% = 1/100.",
+        "Grundwert (G): Das Ganze (100%).",
+        "Prozentwert (W): Der Anteil vom Ganzen.",
+        "Prozentsatz (p%): Der Anteil in Prozent."
+      ],
+      "flashcards": [
+        {"q": "Wofür steht 'Prozent'?", "a": "Für 'von Hundert' (1/100)."},
+        {"q": "Was ist der Grundwert?", "a": "Das Ganze, also 100%."},
+        {"q": "Wie berechnet man den Prozentwert?", "a": "W = (G * p) / 100"}
+      ],
+      "quiz": [
+        {
+          "question": "Was sind 50% von 200€?",
+          "choices": ["50€", "100€", "150€", "200€"],
+          "answerIndex": 1,
+          "explanation": "50% ist die Hälfte, also 100€."
+        },
+        {
+          "question": "Welche Größe entspricht 100%?",
+          "choices": ["Prozentsatz", "Prozentwert", "Grundwert", "Nenner"],
+          "answerIndex": 2,
+          "explanation": "Der Grundwert ist immer das Ganze (100%)."
+        },
+        {
+          "question": "Wie schreibt man 25% als Bruch?",
+          "choices": ["1/2", "1/4", "1/5", "1/10"],
+          "answerIndex": 1,
+          "explanation": "25/100 gekürzt mit 25 ergibt 1/4."
+        }
+      ]
+    },
+    {
+      "id": "math-003",
+      "title": "Lineare Gleichungen",
+      "summary": [
+        "Eine Gleichung ist wie eine Waage, die im Gleichgewicht ist.",
+        "Äquivalenzumformung: Auf beiden Seiten das Gleiche tun (+, -, *, /).",
+        "Ziel: Die Variable (meist x) alleine auf einer Seite stehen haben.",
+        "Probe: Lösung in die Ursprungsgleichung einsetzen."
+      ],
+      "flashcards": [
+        {"q": "Was ist das Ziel beim Lösen einer Gleichung?", "a": "Die Variable (z.B. x) zu isolieren."},
+        {"q": "Was bedeutet Äquivalenzumformung?", "a": "Auf beiden Seiten des Gleichheitszeichens dieselbe Rechenoperation durchführen."},
+        {"q": "Wie überprüft man das Ergebnis?", "a": "Mit der Probe (Einsetzen der Lösung in die Gleichung)."}
+      ],
+      "quiz": [
+        {
+          "question": "Löse: x + 5 = 12",
+          "choices": ["x = 5", "x = 7", "x = 12", "x = 17"],
+          "answerIndex": 1,
+          "explanation": "Auf beiden Seiten -5 rechnen: x = 7."
+        },
+        {
+          "question": "Löse: 3x = 15",
+          "choices": ["x = 3", "x = 5", "x = 12", "x = 45"],
+          "answerIndex": 1,
+          "explanation": "Auf beiden Seiten durch 3 teilen: x = 5."
+        },
+        {
+          "question": "Welcher Schritt ist sinnvoll bei: 2x - 4 = 10?",
+          "choices": ["+4 auf beiden Seiten", "-4 auf beiden Seiten", "/2 auf beiden Seiten", "*2 auf beiden Seiten"],
+          "answerIndex": 0,
+          "explanation": "Zuerst die Zahl ohne x auf die andere Seite bringen, also +4."
+        }
+      ]
+    }
+  ]
+}

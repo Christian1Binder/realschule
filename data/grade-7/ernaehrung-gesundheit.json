@@ -1,0 +1,115 @@
+{
+  "grade": 7,
+  "subject": "Ernährung und Gesundheit",
+  "slug": "ernaehrung-gesundheit",
+  "accent": "#f97316",
+  "topics": [
+    {
+      "id": "eug-001",
+      "title": "Nährstoffe: Die Energielieferanten",
+      "summary": [
+        "Unser Körper braucht Energie und Baustoffe, die er aus der Nahrung erhält.",
+        "Kohlenhydrate: Der wichtigste Energielieferant (Brot, Nudeln, Kartoffeln, Zucker).",
+        "Fette: Wichtiger Energiespeicher und Schutz für Organe (Öle, Butter, Nüsse).",
+        "Eiweiße (Proteine): Baustoffe für Muskeln, Zellen und Organe (Fleisch, Fisch, Milchprodukte, Hülsenfrüchte).",
+        "Vitamine und Mineralstoffe liefern keine Energie, sind aber für den Stoffwechsel lebenswichtig."
+      ],
+      "flashcards": [
+        {"q": "Welche drei Hauptnährstoffe (Makronährstoffe) gibt es?", "a": "Kohlenhydrate, Fette, Eiweiße (Proteine)."},
+        {"q": "Was ist die Hauptaufgabe von Kohlenhydraten?", "a": "Dem Körper schnell Energie zu liefern."},
+        {"q": "Wofür braucht der Körper Eiweiße (Proteine) hauptsächlich?", "a": "Als Baustoffe (z.B. für Muskeln, Zellen)."}
+      ],
+      "quiz": [
+        {
+          "question": "Welcher Nährstoff liefert am schnellsten Energie für das Gehirn und die Muskeln?",
+          "choices": ["Fett", "Eiweiß", "Kohlenhydrate", "Vitamine"],
+          "answerIndex": 2,
+          "explanation": "Zucker und Stärke werden im Körper zu Traubenzucker (Glucose) abgebaut."
+        },
+        {
+          "question": "Welche Nahrungsmittel enthalten viel Eiweiß?",
+          "choices": ["Zucker, Honig, Marmelade", "Brot, Nudeln, Reis", "Fleisch, Fisch, Eier, Quark", "Butter, Öl, Margarine"],
+          "answerIndex": 2,
+          "explanation": "Tierische und pflanzliche (wie Linsen) Produkte sind gute Proteinquellen."
+        },
+        {
+          "question": "Liefern Vitamine dem Körper Energie (Kalorien)?",
+          "choices": ["Ja", "Nein", "Nur Vitamin C", "Nur im Winter"],
+          "answerIndex": 1,
+          "explanation": "Vitamine (Mikronährstoffe) sind essenziell, enthalten aber keine Brennwerte (kcal)."
+        }
+      ]
+    },
+    {
+      "id": "eug-002",
+      "title": "Hygiene und Umgang mit Lebensmitteln",
+      "summary": [
+        "Lebensmittel können verderben, wenn sich Bakterien oder Schimmelpilze vermehren.",
+        "Kühlen hemmt das Wachstum von Mikroorganismen (Kühlschranktemperatur ca. 5-7°C).",
+        "Mindesthaltbarkeitsdatum (MHD): Bis dahin garantiert der Hersteller Qualität ('mindestens haltbar bis...').",
+        "Verbrauchsdatum: Danach darf das Produkt (z. B. rohes Fleisch, Hackfleisch) nicht mehr gegessen werden ('zu verbrauchen bis...').",
+        "Küchenhygiene: Hände waschen, saubere Schneidebretter verwenden (besonders bei rohem Fleisch)."
+      ],
+      "flashcards": [
+        {"q": "Was bedeutet das Mindesthaltbarkeitsdatum (MHD)?", "a": "Bis zu diesem Datum behält das Produkt seine spezifischen Eigenschaften (Geruch, Geschmack, Farbe). Oft ist es danach noch genießbar."},
+        {"q": "Was ist der Unterschied zum Verbrauchsdatum?", "a": "Nach Ablauf des Verbrauchsdatums darf das Lebensmittel aus gesundheitlichen Gründen nicht mehr verzehrt werden (z.B. rohes Fleisch)."},
+        {"q": "Warum lagert man viele Lebensmittel im Kühlschrank?", "a": "Weil Kälte das Wachstum von verderbniserregenden Bakterien und Pilzen verlangsamt."}
+      ],
+      "quiz": [
+        {
+          "question": "Ein Joghurt hat das MHD gestern überschritten. Was tust du?",
+          "choices": ["Sofort wegwerfen.", "Die Verpackung aufblähen lassen.", "Ansehen, riechen, probieren – ist oft noch gut.", "Den Hersteller verklagen."],
+          "answerIndex": 2,
+          "explanation": "Das MHD ist kein Verfallsdatum. Die Sinne (Sehen, Riechen, Schmecken) helfen bei der Entscheidung."
+        },
+        {
+          "question": "Welches Lebensmittel trägt ein VERBRAUCHSdatum und MUSS danach weggeworfen werden?",
+          "choices": ["Nudeln", "Frisches Hackfleisch", "Zucker", "Konservendosen"],
+          "answerIndex": 1,
+          "explanation": "Rohes Fleisch (besonders Hack) verdirbt sehr schnell und bildet gefährliche Bakterien (Salmonellen)."
+        },
+        {
+          "question": "Warum sollte man für rohes Fleisch und Gemüse nicht dasselbe, ungewaschene Schneidebrett benutzen?",
+          "choices": ["Das Gemüse schmeckt sonst nach Fleisch.", "Es entsteht Kreuzkontamination (Bakterien wandern vom rohen Fleisch auf das Gemüse).", "Das Brett verfärbt sich.", "Es ist verboten."],
+          "answerIndex": 1,
+          "explanation": "Hygiene ist das A und O, um Lebensmittelinfektionen zu vermeiden."
+        }
+      ]
+    },
+    {
+      "id": "eug-003",
+      "title": "Ein ausgewogener Tagesplan",
+      "summary": [
+        "Eine gesunde Ernährung ist abwechslungsreich und ausgewogen.",
+        "Orientierung bietet die Ernährungspyramide: Viel Wasser, viel Gemüse/Obst, moderat Kohlenhydrate, mäßig tierische Produkte, wenig Süßigkeiten.",
+        "Ein gutes Frühstück: Liefert Energie für den Start in den Tag (z. B. Vollkornbrot, Müsli, Obst).",
+        "Pausensnack in der Schule: Obst, Nüsse, Vollkornbrot. Keine süßen Limonaden oder Energy-Drinks."
+      ],
+      "flashcards": [
+        {"q": "Welche Lebensmittelgruppe steht an der Basis (unten) der Ernährungspyramide?", "a": "Getränke (Wasser, ungesüßte Tees)."},
+        {"q": "Was empfiehlt die Regel '5 am Tag'?", "a": "Täglich 5 Portionen Gemüse und Obst essen (z.B. 3x Gemüse, 2x Obst)."},
+        {"q": "Warum ist ein Frühstück wichtig?", "a": "Es füllt die Energiespeicher (Kohlenhydrate) nach der Nachtruhe wieder auf."}
+      ],
+      "quiz": [
+        {
+          "question": "Was gehört in ein optimales Pausenfrühstück (Schulbrot)?",
+          "choices": ["Ein Schokoriegel und Cola", "Ein Stück Torte", "Ein Vollkornbrot mit Käse/Gemüse und ein Apfel", "Nur Kaffee"],
+          "answerIndex": 2,
+          "explanation": "Komplexe Kohlenhydrate (Vollkorn) halten lange satt und lassen den Blutzuckerspiegel nur langsam ansteigen."
+        },
+        {
+          "question": "Wie viel Liter Wasser sollte ein Jugendlicher am Tag etwa trinken?",
+          "choices": ["0,5 Liter", "1,5 bis 2 Liter", "5 Liter", "Genauso viel wie Limonade"],
+          "answerIndex": 1,
+          "explanation": "Der Richtwert liegt bei etwa 1,5 Litern, bei Sport oder Hitze mehr."
+        },
+        {
+          "question": "Was befindet sich an der Spitze der Ernährungspyramide (sollte am wenigsten verzehrt werden)?",
+          "choices": ["Wasser", "Gemüse", "Milchprodukte", "Süßigkeiten und Knabberzeug"],
+          "answerIndex": 3,
+          "explanation": "Zuckerreiche Lebensmittel und stark verarbeitete Snacks sollten die Ausnahme bilden."
+        }
+      ]
+    }
+  ]
+}

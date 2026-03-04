@@ -1,0 +1,115 @@
+{
+  "grade": 7,
+  "subject": "Deutsch",
+  "slug": "deutsch",
+  "accent": "#e11d48",
+  "topics": [
+    {
+      "id": "deu-001",
+      "title": "Satzglieder",
+      "summary": [
+        "Satzglieder sind die Bausteine eines Satzes.",
+        "Prädikat: Das Verb (Was passiert?).",
+        "Subjekt: Der Handelnde (Wer oder was?).",
+        "Objekte: Ergänzungen (Genitiv-, Dativ-, Akkusativobjekt).",
+        "Adverbiale Bestimmungen: Ort, Zeit, Grund, Art und Weise."
+      ],
+      "flashcards": [
+        {"q": "Wonach fragt man beim Subjekt?", "a": "Wer oder was?"},
+        {"q": "Was ist das Prädikat?", "a": "Die Satzaussage (meist das Verb). Es sagt, was geschieht."},
+        {"q": "Wie fragt man nach dem Dativobjekt?", "a": "Wem?"}
+      ],
+      "quiz": [
+        {
+          "question": "Welches Satzglied ist 'Der Hund' in 'Der Hund bellt laut'?",
+          "choices": ["Subjekt", "Prädikat", "Akkusativobjekt", "Adverbiale Bestimmung"],
+          "answerIndex": 0,
+          "explanation": "Wer oder was bellt laut? Der Hund."
+        },
+        {
+          "question": "Welches Satzglied ist 'bellt' in 'Der Hund bellt laut'?",
+          "choices": ["Subjekt", "Prädikat", "Akkusativobjekt", "Adverbiale Bestimmung"],
+          "answerIndex": 1,
+          "explanation": "Was tut der Hund? Er bellt (Prädikat)."
+        },
+        {
+          "question": "Wonach fragt man beim Akkusativobjekt?",
+          "choices": ["Wem?", "Wen oder was?", "Wer oder was?", "Wessen?"],
+          "answerIndex": 1,
+          "explanation": "Akkusativ fragt nach 'Wen oder was'."
+        }
+      ]
+    },
+    {
+      "id": "deu-002",
+      "title": "Direkte und indirekte Rede",
+      "summary": [
+        "Direkte Rede: Wörtliche Wiedergabe, steht in Anführungszeichen.",
+        "Indirekte Rede: Sinngemäße Wiedergabe (oft Konjunktiv I).",
+        "Konjunktiv I wird vom Präsensstamm gebildet (z.B. er sage).",
+        "Wenn Konjunktiv I und Indikativ gleich klingen, nutzt man Konjunktiv II."
+      ],
+      "flashcards": [
+        {"q": "Was ist der Unterschied zwischen direkter und indirekter Rede?", "a": "Direkt = wörtlich (in Anführungszeichen), indirekt = sinngemäß (Konjunktiv)."},
+        {"q": "Welchen Modus (Aussageweise) verwendet man meist in der indirekten Rede?", "a": "Konjunktiv I."},
+        {"q": "Wie lautet der Konjunktiv I von 'er geht'?", "a": "er gehe."}
+      ],
+      "quiz": [
+        {
+          "question": "Er sagt: \"Ich bin müde.\" – Wie lautet die indirekte Rede?",
+          "choices": ["Er sagt, dass er müde ist.", "Er sagt, er sei müde.", "Er sagt, er wäre müde.", "Er sagt, er war müde."],
+          "answerIndex": 1,
+          "explanation": "'sei' ist die korrekte Form des Konjunktiv I für 'sein' (3. Person Singular)."
+        },
+        {
+          "question": "Wann benutzt man den Konjunktiv II in der indirekten Rede als Ersatz?",
+          "choices": ["Immer.", "Nie.", "Wenn Konjunktiv I und Indikativ gleich sind.", "Nur bei Verben der Bewegung."],
+          "answerIndex": 2,
+          "explanation": "Beispiel: 'sie laufen' (Indikativ) = 'sie laufen' (Konj I). Daher Ersatz: 'sie liefen' (Konj II)."
+        },
+        {
+          "question": "Welches Satzzeichen gehört typischerweise zur direkten Rede?",
+          "choices": ["Punkt", "Komma", "Anführungszeichen", "Bindestrich"],
+          "answerIndex": 2,
+          "explanation": "Anführungszeichen kennzeichnen die wörtliche Rede."
+        }
+      ]
+    },
+    {
+      "id": "deu-003",
+      "title": "Textzusammenfassung (Inhaltsangabe)",
+      "summary": [
+        "Ziel: Den wesentlichen Inhalt eines Textes kurz und sachlich darstellen.",
+        "Aufbau: Einleitung (TATT-Satz), Hauptteil (Inhalt), Schluss (Intention/Fazit).",
+        "TATT = Titel, Autor, Textsorte, Thema.",
+        "Zeitform: Immer Präsens!",
+        "Stil: Sachlich, keine wörtliche Rede, keine eigenen Gefühle."
+      ],
+      "flashcards": [
+        {"q": "In welcher Zeitform wird eine Inhaltsangabe geschrieben?", "a": "Präsens (Gegenwart)."},
+        {"q": "Wofür steht 'TATT' in der Einleitung?", "a": "Titel, Autor, Textsorte, Thema."},
+        {"q": "Darf wörtliche Rede in der Inhaltsangabe vorkommen?", "a": "Nein, stattdessen indirekte Rede."}
+      ],
+      "quiz": [
+        {
+          "question": "Was gehört in den TATT-Satz?",
+          "choices": ["Nur der Titel.", "Titel, Autor, Textsorte, Thema.", "Eigene Meinung und Titel.", "Zusammenfassung des Endes."],
+          "answerIndex": 1,
+          "explanation": "TATT ist eine Eselsbrücke für die wichtigsten Einleitungs-Elemente."
+        },
+        {
+          "question": "Welche Zeitform muss durchgehend verwendet werden?",
+          "choices": ["Präteritum", "Perfekt", "Präsens", "Futur I"],
+          "answerIndex": 2,
+          "explanation": "Inhaltsangaben werden immer im Präsens verfasst."
+        },
+        {
+          "question": "Darfst du in einer Inhaltsangabe zitieren (wörtliche Rede)?",
+          "choices": ["Ja, immer.", "Nein, niemals.", "Nur im Schlussteil.", "Nur den Autor."],
+          "answerIndex": 1,
+          "explanation": "Wörtliche Rede ist in einer sachlichen Inhaltsangabe nicht erlaubt."
+        }
+      ]
+    }
+  ]
+}

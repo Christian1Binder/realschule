@@ -14,26 +14,50 @@
         "Als Abfallprodukt entsteht Sauerstoff (O2), den wir zum Atmen brauchen."
       ],
       "flashcards": [
-        {"q": "Was stellen Pflanzen bei der Fotosynthese her?", "a": "Traubenzucker (Glucose) und Sauerstoff."},
-        {"q": "Was brauchen Pflanzen für die Fotosynthese?", "a": "Licht, Wasser und Kohlenstoffdioxid."},
-        {"q": "Wo in der Pflanze findet die Fotosynthese statt?", "a": "In den Chloroplasten (Blätter)."}
+        {
+          "q": "Was stellen Pflanzen bei der Fotosynthese her?",
+          "a": "Traubenzucker (Glucose) und Sauerstoff."
+        },
+        {
+          "q": "Was brauchen Pflanzen für die Fotosynthese?",
+          "a": "Licht, Wasser und Kohlenstoffdioxid."
+        },
+        {
+          "q": "Wo in der Pflanze findet die Fotosynthese statt?",
+          "a": "In den Chloroplasten (Blätter)."
+        }
       ],
       "quiz": [
         {
           "question": "Welches Gas nehmen Pflanzen bei der Fotosynthese auf?",
-          "choices": ["Sauerstoff", "Kohlenstoffdioxid", "Stickstoff", "Wasserstoff"],
+          "choices": [
+            "Sauerstoff",
+            "Kohlenstoffdioxid",
+            "Stickstoff",
+            "Wasserstoff"
+          ],
           "answerIndex": 1,
           "explanation": "Pflanzen benötigen CO2 aus der Luft."
         },
         {
           "question": "Welcher Farbstoff ist für die grüne Farbe der Blätter verantwortlich?",
-          "choices": ["Melanin", "Karotin", "Chlorophyll", "Hämoglobin"],
+          "choices": [
+            "Melanin",
+            "Karotin",
+            "Chlorophyll",
+            "Hämoglobin"
+          ],
           "answerIndex": 2,
           "explanation": "Chlorophyll fängt das Sonnenlicht ein."
         },
         {
           "question": "Was ist das Hauptziel der Fotosynthese für die Pflanze?",
-          "choices": ["Sauerstoff produzieren", "Traubenzucker herstellen", "Wasser speichern", "Schatten spenden"],
+          "choices": [
+            "Sauerstoff produzieren",
+            "Traubenzucker herstellen",
+            "Wasser speichern",
+            "Schatten spenden"
+          ],
           "answerIndex": 1,
           "explanation": "Die Pflanze stellt Traubenzucker als Energiequelle her."
         }
@@ -49,26 +73,50 @@
         "Der Wald bietet Lebensraum, reguliert das Klima und produziert Sauerstoff."
       ],
       "flashcards": [
-        {"q": "Welches ist die höchste Schicht im Wald?", "a": "Die Baumschicht."},
-        {"q": "Was ist die Rolle der Destruenten?", "a": "Sie zersetzen totes Material wieder in Mineralstoffe."},
-        {"q": "Was sind Produzenten im Wald?", "a": "Die Pflanzen (Erzeuger von Biomasse)."}
+        {
+          "q": "Welches ist die höchste Schicht im Wald?",
+          "a": "Die Baumschicht."
+        },
+        {
+          "q": "Was ist die Rolle der Destruenten?",
+          "a": "Sie zersetzen totes Material wieder in Mineralstoffe."
+        },
+        {
+          "q": "Was sind Produzenten im Wald?",
+          "a": "Die Pflanzen (Erzeuger von Biomasse)."
+        }
       ],
       "quiz": [
         {
           "question": "Welche Schicht liegt direkt über dem Boden?",
-          "choices": ["Baumschicht", "Krautschicht", "Moosschicht", "Strauchschicht"],
+          "choices": [
+            "Baumschicht",
+            "Krautschicht",
+            "Moosschicht",
+            "Strauchschicht"
+          ],
           "answerIndex": 2,
           "explanation": "Die Moosschicht befindet sich am Boden."
         },
         {
           "question": "Wer steht typischerweise am Anfang einer Nahrungskette?",
-          "choices": ["Raubtier", "Pflanze (Produzent)", "Pilz (Zersetzer)", "Insekt"],
+          "choices": [
+            "Raubtier",
+            "Pflanze (Produzent)",
+            "Pilz (Zersetzer)",
+            "Insekt"
+          ],
           "answerIndex": 1,
           "explanation": "Pflanzen (Produzenten) stellen aus Sonnenlicht Energie her."
         },
         {
           "question": "Was gehört zur Biozönose?",
-          "choices": ["Nur Pflanzen", "Nur Tiere", "Alle Lebewesen (Tiere, Pflanzen, Pilze)", "Der unbelebte Raum (Boden, Klima)"],
+          "choices": [
+            "Nur Pflanzen",
+            "Nur Tiere",
+            "Alle Lebewesen (Tiere, Pflanzen, Pilze)",
+            "Der unbelebte Raum (Boden, Klima)"
+          ],
           "answerIndex": 2,
           "explanation": "Biozönose bezeichnet die Lebensgemeinschaft aller Organismen."
         }
@@ -85,28 +133,401 @@
         "Venen: Führen das Blut zum Herzen hin (meist sauerstoffarm)."
       ],
       "flashcards": [
-        {"q": "Welches Organ pumpt das Blut?", "a": "Das Herz."},
-        {"q": "Was ist die Aufgabe der Lungenbläschen?", "a": "Dort findet der Gasaustausch statt (O2 ins Blut, CO2 in die Luft)."},
-        {"q": "Wie nennt man Blutgefäße, die zum Herzen führen?", "a": "Venen."}
+        {
+          "q": "Welches Organ pumpt das Blut?",
+          "a": "Das Herz."
+        },
+        {
+          "q": "Was ist die Aufgabe der Lungenbläschen?",
+          "a": "Dort findet der Gasaustausch statt (O2 ins Blut, CO2 in die Luft)."
+        },
+        {
+          "q": "Wie nennt man Blutgefäße, die zum Herzen führen?",
+          "a": "Venen."
+        }
       ],
       "quiz": [
         {
           "question": "Wo findet der Gasaustausch beim Atmen statt?",
-          "choices": ["Im Herzen", "In der Luftröhre", "In den Lungenbläschen", "Im Magen"],
+          "choices": [
+            "Im Herzen",
+            "In der Luftröhre",
+            "In den Lungenbläschen",
+            "Im Magen"
+          ],
           "answerIndex": 2,
           "explanation": "Die Lungenbläschen sind eng mit feinen Blutgefäßen umschlossen."
         },
         {
           "question": "Welche Blutgefäße transportieren Blut VOM Herzen WEG?",
-          "choices": ["Venen", "Arterien (Schlagadern)", "Lungen", "Kapillaren"],
+          "choices": [
+            "Venen",
+            "Arterien (Schlagadern)",
+            "Lungen",
+            "Kapillaren"
+          ],
           "answerIndex": 1,
           "explanation": "Arterien leiten das Blut in den Körper."
         },
         {
           "question": "Welches Gas atmen wir ein, um zu überleben?",
-          "choices": ["Kohlenstoffdioxid", "Stickstoff", "Helium", "Sauerstoff"],
+          "choices": [
+            "Kohlenstoffdioxid",
+            "Stickstoff",
+            "Helium",
+            "Sauerstoff"
+          ],
           "answerIndex": 3,
           "explanation": "Zellen benötigen Sauerstoff zur Energiegewinnung."
+        }
+      ]
+    },
+    {
+      "id": "bio-004",
+      "title": "Herz & Blutkreislauf",
+      "summary": [
+        "Der Mensch besitzt einen geschlossenen Blutkreislauf mit Arterien (vom Herzen weg, dicke Muskelwände), Venen (zum Herzen hin, dünnere Muskelwände, Venenklappen gegen Rückfluss) und Kapillaren (feine Verästelungen für den Stoffaustausch).",
+        "Das Herz wird durch die Herzscheidewand in eine linke und eine rechte Hälfte geteilt. Herzklappen (Segel- und Taschenklappen) sorgen dafür, dass das Blut nur in eine Richtung fließt.",
+        "Der kleine Kreislauf (Lungenkreislauf) pumpt sauerstoffarmes Blut von der rechten Herzkammer über die Lungenarterie zur Lunge (Gasaustausch) und als sauerstoffreiches Blut über die Lungenvene in den linken Vorhof.",
+        "Der große Kreislauf (Körperkreislauf) pumpt sauerstoffreiches Blut von der linken Herzkammer über die Aorta in den Körper (Organe) und als sauerstoffarmes Blut über die obere/untere Hohlvene zurück in den rechten Vorhof."
+      ],
+      "flashcards": [
+        {
+          "q": "Was ist der Unterschied zwischen Arterien und Venen?",
+          "a": "Arterien führen das Blut vom Herzen weg (hoher Druck, dicke Wände). Venen führen es zum Herzen hin (niedriger Druck, Venenklappen)."
+        },
+        {
+          "q": "Was ist die Funktion der Kapillaren?",
+          "a": "Sie verbinden Arterien und Venen. Ihr langsamer Blutfluss und die große Oberfläche ermöglichen den Austausch von Nährstoffen, O₂ und CO₂."
+        },
+        {
+          "q": "Was sind die Aufgaben des kleinen und großen Kreislaufs?",
+          "a": "Kleiner Kreislauf (Lungenkreislauf): Gasaustausch in der Lunge. Großer Kreislauf (Körperkreislauf): Versorgung der Organe mit O₂ und Nährstoffen."
+        },
+        {
+          "q": "Was trennt das Herz in zwei Hälften und was verhindern die Herzklappen?",
+          "a": "Die Herzscheidewand trennt die Hälften. Die Klappen verhindern den Rückfluss des Blutes."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Wofür sorgt die Herzklappenfunktion grundsätzlich?",
+          "choices": [
+            "Dass das Blut Sauerstoff aufnimmt.",
+            "Dass Blut außerhalb der Gefäße fließt.",
+            "Dass Arterien und Venen gleich dick sind.",
+            "Dass das Blut immer in die gleiche Richtung fließt."
+          ],
+          "answerIndex": 3,
+          "explanation": "Herzklappen sorgen dafür, dass Blut im Herzen nur in eine Richtung fließt."
+        },
+        {
+          "question": "Was verhindern Segelklappen?",
+          "choices": [
+            "Den Rückfluss des Blutes aus den Arterien in die Herzkammern.",
+            "Dass Blut in den Venen zum Herzen gelangt.",
+            "Den Austausch von Sauerstoff in den Kapillaren.",
+            "Den Rückfluss des Blutes von den Herzkammern in die Vorhöfe."
+          ],
+          "answerIndex": 3,
+          "explanation": "Segelklappen liegen zwischen Vorhof und Herzkammer."
+        },
+        {
+          "question": "Was verhindern Taschenklappen?",
+          "choices": [
+            "Dass Blut unter hohem Druck fließt.",
+            "Den Stoffaustausch in Kapillaren.",
+            "Den Rückfluss des Blutes aus den Arterien in die Herzkammern.",
+            "Den Rückfluss des Blutes von den Herzkammern in die Vorhöfe."
+          ],
+          "answerIndex": 2,
+          "explanation": "Taschenklappen liegen zwischen Herzkammer und Arterie."
+        },
+        {
+          "question": "Welche Aussage beschreibt Arterien korrekt?",
+          "choices": [
+            "Sie führen Blut zum Herzen hin und besitzen dünnere Muskelwände als Arterien.",
+            "In ihnen fließt Blut langsam für den Stoffaustausch.",
+            "Sie machen den Blutkreislauf zu einem offenen System.",
+            "Sie führen Blut vom Herzen weg und besitzen dicke Muskelwände."
+          ],
+          "answerIndex": 3,
+          "explanation": "Arterien: vom Herzen weg, hoher Druck, dicke Muskelwände."
+        },
+        {
+          "question": "Welche Aussage beschreibt Venen korrekt?",
+          "choices": [
+            "Sie führen Blut zum Herzen hin und haben dünnere Muskelwände als Arterien.",
+            "In ihnen fließt Blut am höchsten Druck.",
+            "Sie sind die feinsten Blutgefäße für den Stoffaustausch.",
+            "Sie führen Blut vom Herzen weg und haben dicke Muskelwände."
+          ],
+          "answerIndex": 0,
+          "explanation": "Venen: zum Herzen, geringerer Druck, dünnere Muskelwände."
+        },
+        {
+          "question": "Wozu dienen Venenklappen?",
+          "choices": [
+            "Sie verhindern den Rückfluss und machen die Venen zu Einbahnstraßen.",
+            "Sie lassen Blut zurück in die Arme fließen.",
+            "Sie sorgen dafür, dass Blut Sauerstoff abgibt.",
+            "Sie machen Arterien zu Einbahnstraßen."
+          ],
+          "answerIndex": 0,
+          "explanation": "Venenklappen verhindern Rückfluss in den Venen."
+        },
+        {
+          "question": "Was verbinden Kapillaren im Körper?",
+          "choices": [
+            "Arterien und Venen.",
+            "Sinusknoten und Herzmuskel.",
+            "Aorta und Herzscheidewand.",
+            "Lungenarterie und Lungenvene direkt im Herzen."
+          ],
+          "answerIndex": 0,
+          "explanation": "Kapillaren verbinden Arterien und Venen."
+        },
+        {
+          "question": "Wie fließt das Blut in Kapillaren?",
+          "choices": [
+            "Nur in Richtung Lunge.",
+            "Langsam.",
+            "Nur stoßweise durch Klappen.",
+            "Unter hohem Druck."
+          ],
+          "answerIndex": 1,
+          "explanation": "Langsamer Blutfluss ermöglicht Stoffaustausch."
+        },
+        {
+          "question": "Welche Aufgabe haben Kapillaren laut Inhalt?",
+          "choices": [
+            "Sie sind die größte Arterie des Körpers.",
+            "Sie verhindern Rückfluss im Herzen.",
+            "Austausch von Sauerstoff, Kohlenstoffdioxid und Nährstoffen zwischen Blut und Zellen.",
+            "Sie pumpen Blut in den Körper."
+          ],
+          "answerIndex": 2,
+          "explanation": "Stoffaustausch findet in Kapillaren statt."
+        },
+        {
+          "question": "Warum ist die Verästelung der Kapillaren wichtig?",
+          "choices": [
+            "Sie sorgt für eine große Austauschfläche (Oberflächenvergrößerung).",
+            "Sie verhindert den Rückfluss aus Arterien in Herzkammern.",
+            "Sie erhöht den Blutdruck in Venen.",
+            "Sie macht den Kreislauf zu einem offenen System."
+          ],
+          "answerIndex": 0,
+          "explanation": "Viele Kapillaren = große Oberfläche für Austausch."
+        },
+        {
+          "question": "Wie heißt der kleine Kreislauf?",
+          "choices": [
+            "Lungenkreislauf.",
+            "Körperkreislauf.",
+            "Aortakreislauf.",
+            "Venenkreislauf."
+          ],
+          "answerIndex": 0,
+          "explanation": "Kleiner Kreislauf = zwischen Herz und Lunge."
+        },
+        {
+          "question": "Welche Aufgabe hat der Lungenkreislauf?",
+          "choices": [
+            "Transportiert Blut vom Herzen zur Lunge und zurück.",
+            "Verhindert Rückfluss in den Arterien.",
+            "Versorgt alle Organe direkt mit Sauerstoff und Nährstoffen.",
+            "Teilt das Herz in zwei Hälften."
+          ],
+          "answerIndex": 0,
+          "explanation": "Lungenkreislauf: Herz ↔ Lunge."
+        },
+        {
+          "question": "Wie heißt der große Kreislauf?",
+          "choices": [
+            "Lungenkreislauf.",
+            "Herzmuskelkreislauf.",
+            "Körperkreislauf.",
+            "Kapillarkreislauf."
+          ],
+          "answerIndex": 2,
+          "explanation": "Großer Kreislauf = durch den gesamten Körper."
+        },
+        {
+          "question": "Welche Aufgabe hat der Körperkreislauf?",
+          "choices": [
+            "Verhindert Rückfluss in Venen.",
+            "Erzeugt elektrische Impulse.",
+            "Bringt Blut nur zur Lunge.",
+            "Versorgt alle Organe mit Sauerstoff und Nährstoffen."
+          ],
+          "answerIndex": 3,
+          "explanation": "Körperkreislauf: Versorgung der Organe."
+        },
+        {
+          "question": "Was bedeutet: geschlossener Blutkreislauf?",
+          "choices": [
+            "Das Blut fließt nur in Kapillaren.",
+            "Das Blut fließt außerhalb der Gefäße in den Körperraum.",
+            "Das Blut wechselt ständig die Richtung im Herzen.",
+            "Das Blut bleibt immer innerhalb der Blutgefäße."
+          ],
+          "answerIndex": 3,
+          "explanation": "Geschlossen = Blut bleibt in Gefäßen."
+        },
+        {
+          "question": "Welche Struktur teilt das Herz in linke und rechte Hälfte?",
+          "choices": [
+            "Lungenkapillaren.",
+            "Segelklappen.",
+            "Herzscheidewand.",
+            "Aorta."
+          ],
+          "answerIndex": 2,
+          "explanation": "Die Herzscheidewand trennt die Herzhälften."
+        },
+        {
+          "question": "Welche Herzhälfte pumpt sauerstoffarmes Blut in die Lunge (laut Lerninhalt)?",
+          "choices": [
+            "Der linke Vorhof.",
+            "Die rechte Herzkammer.",
+            "Die Aorta.",
+            "Die linke Herzkammer."
+          ],
+          "answerIndex": 1,
+          "explanation": "Rechte Herzkammer → Lungenarterie → Lunge."
+        },
+        {
+          "question": "Welche Herzhälfte pumpt sauerstoffreiches Blut in den Körper (laut Lerninhalt)?",
+          "choices": [
+            "Die rechte Herzkammer.",
+            "Der rechte Vorhof.",
+            "Die Lungenarterie.",
+            "Die linke Herzkammer."
+          ],
+          "answerIndex": 3,
+          "explanation": "Linke Herzkammer → Aorta → Körper."
+        },
+        {
+          "question": "Was transportiert die Lungenarterie?",
+          "choices": [
+            "Sauerstoffreiches Blut von der Lunge zum Herzen.",
+            "Sauerstoffarmes Blut vom Herzen zur Lunge.",
+            "Sauerstoffreiches Blut vom Herzen in den Körper.",
+            "Sauerstoffarmes Blut aus den Nieren zurück."
+          ],
+          "answerIndex": 1,
+          "explanation": "Lungenarterie führt (hier) sauerstoffarmes Blut zur Lunge."
+        },
+        {
+          "question": "Was transportiert die Lungenvene?",
+          "choices": [
+            "Sauerstoffarmes Blut vom Herzen zur Lunge.",
+            "Sauerstoffreiches Blut vom Herzen in den Körper.",
+            "Sauerstoffarmes Blut vom Kopf zur Aorta.",
+            "Sauerstoffreiches Blut von der Lunge zum Herzen."
+          ],
+          "answerIndex": 3,
+          "explanation": "Lungenvene führt sauerstoffreiches Blut zurück."
+        },
+        {
+          "question": "Was ist die Aorta in diesem Stoff?",
+          "choices": [
+            "Eine Kapillare für den Stoffaustausch.",
+            "Eine Vene, die Blut zum Herzen bringt.",
+            "Die größte Arterie des Körpers; sie leitet sauerstoffreiches Blut in den Körper.",
+            "Eine Klappe zwischen Vorhof und Kammer."
+          ],
+          "answerIndex": 2,
+          "explanation": "Aorta/Körperarterie: weg vom Herzen, in den Körper."
+        },
+        {
+          "question": "Was machen die Lungenkapillaren?",
+          "choices": [
+            "Hier gibt das Blut Sauerstoff ab und nimmt Kohlenstoffdioxid auf.",
+            "Hier gibt das Blut Kohlenstoffdioxid ab und nimmt Sauerstoff auf.",
+            "Hier verhindern Klappen den Rückfluss.",
+            "Hier wird Blut in den Körper gepumpt."
+          ],
+          "answerIndex": 1,
+          "explanation": "Gasaustausch in der Lunge: CO₂ ab, O₂ auf."
+        },
+        {
+          "question": "Was machen die Körperkapillaren?",
+          "choices": [
+            "Hier gibt das Blut Kohlenstoffdioxid ab und nimmt Sauerstoff auf.",
+            "Hier fließt Blut unter hohem Druck vom Herzen weg.",
+            "Hier verhindern Taschenklappen den Rückfluss.",
+            "Hier gibt das Blut Sauerstoff ab und nimmt Kohlenstoffdioxid auf."
+          ],
+          "answerIndex": 3,
+          "explanation": "Im Körper: O₂ ab an Zellen, CO₂ auf."
+        },
+        {
+          "question": "Was leistet die obere Hohlvene?",
+          "choices": [
+            "Sie führt Blut vom Herzen zur Lunge.",
+            "Sie leitet sauerstoffreiches Blut vom Herzen in den Körper.",
+            "Sie leitet Blut aus Kopf und Armen zum Herzen.",
+            "Sie verbindet Arterien und Venen."
+          ],
+          "answerIndex": 2,
+          "explanation": "Obere Hohlvene: Rückweg aus oberen Körperbereichen."
+        },
+        {
+          "question": "Was leistet die untere Hohlvene?",
+          "choices": [
+            "Sie leitet Blut aus dem unteren Körperbereich zum Herzen.",
+            "Sie pumpt Blut aktiv durch den Körper.",
+            "Sie nimmt Sauerstoff in der Lunge auf.",
+            "Sie leitet sauerstoffreiches Blut in die Beine."
+          ],
+          "answerIndex": 0,
+          "explanation": "Untere Hohlvene: Rückweg aus unteren Körperbereichen."
+        },
+        {
+          "question": "Welche Aussage passt zur Kopfarterie/Kopfvene im Bild?",
+          "choices": [
+            "Kopfarterie führt sauerstoffarmes Blut; Kopfvene führt sauerstoffreiches Blut.",
+            "Beide führen sauerstoffreiches Blut zum Herzen.",
+            "Kopfarterie führt sauerstoffreiches Blut zum Kopf; Kopfvene führt sauerstoffarmes Blut zurück.",
+            "Beide sind Kapillaren für den Stoffaustausch."
+          ],
+          "answerIndex": 2,
+          "explanation": "Arterie hin (vom Herzen weg), Vene zurück (zum Herzen hin)."
+        },
+        {
+          "question": "Welche Aussage passt zur Armarterie/Armvene im Bild?",
+          "choices": [
+            "Armarterie führt sauerstoffreiches Blut in den Arm; Armvene führt sauerstoffarmes Blut zurück.",
+            "Armvene führt sauerstoffreiches Blut vom Herzen weg.",
+            "Armarterie führt sauerstoffarmes Blut zum Herzen.",
+            "Armarterie ist eine Klappe im Herzen."
+          ],
+          "answerIndex": 0,
+          "explanation": "Arterie weg, Vene zurück."
+        },
+        {
+          "question": "Welche Aussage passt zur Nierenarterie/Nierenvene im Bild?",
+          "choices": [
+            "Nierenarterie führt Blut zur Lunge; Nierenvene pumpt Blut.",
+            "Beide sind Kapillaren.",
+            "Nierenarterie versorgt die Nieren mit sauerstoffreichem Blut; Nierenvene führt sauerstoffarmes Blut zurück.",
+            "Nierenvene führt sauerstoffreiches Blut vom Herzen weg."
+          ],
+          "answerIndex": 2,
+          "explanation": "Wie im Lernkartenformat: Arterie hin, Vene zurück."
+        },
+        {
+          "question": "Welche Aussage beschreibt die Blutgefäß-Arten korrekt?",
+          "choices": [
+            "Es gibt nur Kapillaren und Aorta.",
+            "Es gibt Herzklappen, Arterien und Herzmuskel.",
+            "Es gibt Arterien, Venen und Kapillaren.",
+            "Es gibt nur Arterien und Venen."
+          ],
+          "answerIndex": 2,
+          "explanation": "Genau diese drei Arten wurden genannt."
         }
       ]
     }

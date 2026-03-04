@@ -14,26 +14,50 @@
         "3. Stand: Bauern und Handwerker (ca. 90% der Bevölkerung) – Arbeiten und ernähren die anderen Stände."
       ],
       "flashcards": [
-        {"q": "Wer gehörte zum ersten Stand?", "a": "Die Geistlichen (Klerus)."},
-        {"q": "Was war die Hauptaufgabe des zweiten Standes?", "a": "Schützen und herrschen (Adel/Ritter)."},
-        {"q": "Welcher Stand stellte den größten Teil der Bevölkerung?", "a": "Der dritte Stand (Bauern)."}
+        {
+          "q": "Wer gehörte zum ersten Stand?",
+          "a": "Die Geistlichen (Klerus)."
+        },
+        {
+          "q": "Was war die Hauptaufgabe des zweiten Standes?",
+          "a": "Schützen und herrschen (Adel/Ritter)."
+        },
+        {
+          "q": "Welcher Stand stellte den größten Teil der Bevölkerung?",
+          "a": "Der dritte Stand (Bauern)."
+        }
       ],
       "quiz": [
         {
           "question": "Welcher Stand arbeitete auf den Feldern?",
-          "choices": ["1. Stand", "2. Stand", "3. Stand", "Der König"],
+          "choices": [
+            "1. Stand",
+            "2. Stand",
+            "3. Stand",
+            "Der König"
+          ],
           "answerIndex": 2,
           "explanation": "Bauern und Handwerker bildeten den arbeitsamen 3. Stand."
         },
         {
           "question": "Von wem stammte laut mittelalterlicher Vorstellung die Ständeordnung?",
-          "choices": ["Vom Papst", "Von Gott", "Vom Kaiser", "Von den Bauern"],
+          "choices": [
+            "Vom Papst",
+            "Von Gott",
+            "Vom Kaiser",
+            "Von den Bauern"
+          ],
           "answerIndex": 1,
           "explanation": "Die Ordnung galt als gottgewollt, um Aufstände zu verhindern."
         },
         {
           "question": "Wer betete für das Seelenheil aller?",
-          "choices": ["Ritter", "Klerus", "Bürgertum", "Leibeigene"],
+          "choices": [
+            "Ritter",
+            "Klerus",
+            "Bürgertum",
+            "Leibeigene"
+          ],
           "answerIndex": 1,
           "explanation": "Geistliche, Mönche und Priester bildeten den Klerus."
         }
@@ -49,26 +73,50 @@
         "Kaufleute schlossen sich zu Gilden zusammen (Schutz und Handelsprivilegien)."
       ],
       "flashcards": [
-        {"q": "Was bedeutete 'Stadtluft macht frei nach Jahr und Tag'?", "a": "Ein geflohener leibeigener Bauer wurde frei, wenn ihn sein Herr ein Jahr und einen Tag nicht in der Stadt aufspürte."},
-        {"q": "Was war eine Zunft?", "a": "Ein Zusammenschluss von Handwerkern desselben Berufs in einer Stadt."},
-        {"q": "Warum bauten Städte Mauern?", "a": "Zum Schutz vor Angriffen und Dieben."}
+        {
+          "q": "Was bedeutete 'Stadtluft macht frei nach Jahr und Tag'?",
+          "a": "Ein geflohener leibeigener Bauer wurde frei, wenn ihn sein Herr ein Jahr und einen Tag nicht in der Stadt aufspürte."
+        },
+        {
+          "q": "Was war eine Zunft?",
+          "a": "Ein Zusammenschluss von Handwerkern desselben Berufs in einer Stadt."
+        },
+        {
+          "q": "Warum bauten Städte Mauern?",
+          "a": "Zum Schutz vor Angriffen und Dieben."
+        }
       ],
       "quiz": [
         {
           "question": "Was kontrollierte die Zunft?",
-          "choices": ["Die Steuern des Königs.", "Die Preise und die Qualität der Waren der Handwerker.", "Die militärische Verteidigung.", "Den Kirchenbau."],
+          "choices": [
+            "Die Steuern des Königs.",
+            "Die Preise und die Qualität der Waren der Handwerker.",
+            "Die militärische Verteidigung.",
+            "Den Kirchenbau."
+          ],
           "answerIndex": 1,
           "explanation": "Zünfte sicherten das Einkommen der Handwerker und bestimmten die Standards."
         },
         {
           "question": "Wer schloss sich in Gilden zusammen?",
-          "choices": ["Bauern", "Ritter", "Kaufleute", "Mönche"],
+          "choices": [
+            "Bauern",
+            "Ritter",
+            "Kaufleute",
+            "Mönche"
+          ],
           "answerIndex": 2,
           "explanation": "Kaufleute organisierten sich in Gilden (ähnlich wie die Zünfte der Handwerker)."
         },
         {
           "question": "Wer regierte ursprünglich oft in einer entstehenden Stadt?",
-          "choices": ["Der Stadtrat (Patrizier)", "Der Bischof oder ein Stadtherr", "Der Papst", "Die Zunftmeister"],
+          "choices": [
+            "Der Stadtrat (Patrizier)",
+            "Der Bischof oder ein Stadtherr",
+            "Der Papst",
+            "Die Zunftmeister"
+          ],
           "answerIndex": 1,
           "explanation": "Oft gehörte der Boden einem Stadtherrn, bevor sich Bürger eigene Rechte erkämpften."
         }
@@ -84,28 +132,327 @@
         "Folge: Spaltung der westlichen Kirche in katholische und evangelische (protestantische) Konfessionen."
       ],
       "flashcards": [
-        {"q": "Was kritisierte Martin Luther besonders am Klerus?", "a": "Den Ablasshandel (Verkauf von Vergebung der Sünden)."},
-        {"q": "Was war 1517 Luthers berühmteste Aktion?", "a": "Er veröffentlichte seine 95 Thesen."},
-        {"q": "Was war die Hauptfolge der Reformation?", "a": "Die Spaltung der Kirche (katholisch vs. evangelisch/protestantisch)."}
+        {
+          "q": "Was kritisierte Martin Luther besonders am Klerus?",
+          "a": "Den Ablasshandel (Verkauf von Vergebung der Sünden)."
+        },
+        {
+          "q": "Was war 1517 Luthers berühmteste Aktion?",
+          "a": "Er veröffentlichte seine 95 Thesen."
+        },
+        {
+          "q": "Was war die Hauptfolge der Reformation?",
+          "a": "Die Spaltung der Kirche (katholisch vs. evangelisch/protestantisch)."
+        }
       ],
       "quiz": [
         {
           "question": "Was war der 'Ablasshandel'?",
-          "choices": ["Der Handel mit Gewürzen aus dem Orient.", "Der Freikauf von Sündenstrafen durch Geldzahlungen.", "Der Verkauf von Kirchenämtern.", "Das Eintauschen von Land gegen Schutz."],
+          "choices": [
+            "Der Handel mit Gewürzen aus dem Orient.",
+            "Der Freikauf von Sündenstrafen durch Geldzahlungen.",
+            "Der Verkauf von Kirchenämtern.",
+            "Das Eintauschen von Land gegen Schutz."
+          ],
           "answerIndex": 1,
           "explanation": "Geld zahlen für einen Erlass der Sündenstrafen im Fegefeuer."
         },
         {
           "question": "Wie erlangt der Mensch laut Luther Sündenvergebung?",
-          "choices": ["Durch gute Werke", "Durch Pilgerfahrten", "Allein durch Glauben und Gottes Gnade", "Durch den Papst"],
+          "choices": [
+            "Durch gute Werke",
+            "Durch Pilgerfahrten",
+            "Allein durch Glauben und Gottes Gnade",
+            "Durch den Papst"
+          ],
           "answerIndex": 2,
           "explanation": "'Sola fide' (allein durch den Glauben) und 'sola gratia' (allein durch Gnade)."
         },
         {
           "question": "Welche Konfession ging aus Luthers Lehren hervor?",
-          "choices": ["Katholisch", "Orthodox", "Evangelisch (Protestantisch)", "Anglikanisch"],
+          "choices": [
+            "Katholisch",
+            "Orthodox",
+            "Evangelisch (Protestantisch)",
+            "Anglikanisch"
+          ],
           "answerIndex": 2,
           "explanation": "Luthers Anhänger wurden die Protestanten (Evangelischen)."
+        }
+      ]
+    },
+    {
+      "id": "ges-004",
+      "title": "Die Renaissance",
+      "summary": [
+        "Renaissance bedeutet „Wiedergeburt“ der Antike. Zwischen dem 14. und dem 15. Jahrhundert geriet die mittelalterliche Denkweise ins Wanken.",
+        "Durch die Kreuzzüge kamen die Menschen mit dem Orient in Kontakt, was zu einem großen Wissenszuwachs führte.",
+        "Antikes Wissen (Römer und Griechen) war im Mittelalter als heidnisch abgelehnt worden und in Vergessenheit geraten. In der Renaissance forschten Gelehrte in Bibliotheken und Klöstern danach.",
+        "Ein neues Ideal entstand: Ohne Einschränkung durch religiöse Vorschriften der Kirche wissenschaftlich arbeiten zu können. Wichtige Begriffe: Vernunft, Wissenschaft, Gewissen.",
+        "Die Kunst (z.B. Michelangelos David aus Marmor) orientierte sich an antiken Vorbildern und stellte den Menschen (Muskeln, Haare) detailgetreu dar.",
+        "Die Architektur orientierte sich an antiken Tempeln (Säulen, Kuppeldächer).",
+        "Bücher und Handschriften wurden beliebter, aber sie waren teuer und das Abschreiben per Hand dauerte sehr lange."
+      ],
+      "flashcards": [
+        {
+          "q": "Was bedeutet „Renaissance“?",
+          "a": "Wiedergeburt der Antike."
+        },
+        {
+          "q": "Warum war antikes Wissen im Mittelalter in Vergessenheit geraten?",
+          "a": "Es wurde oft als heidnisch abgelehnt."
+        },
+        {
+          "q": "Was war ein wichtiges Ideal der Gelehrten in der Renaissance?",
+          "a": "Wissenschaftlich forschen und entdecken ohne den Zwang oder die Einschränkungen der Kirche."
+        },
+        {
+          "q": "Woran orientierten sich Architektur und Kunst in der Renaissance?",
+          "a": "An griechisch-römischen Traditionen (z.B. Säulen, detailgetreue Menschendarstellung)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Was bedeutet „Renaissance“?",
+          "choices": [
+            "Wiedergeburt der Antike",
+            "Ende des Mittelalters",
+            "Verbot von Büchern",
+            "Beginn der Kreuzzüge"
+          ],
+          "answerIndex": 0,
+          "explanation": "Renaissance bedeutet „Wiedergeburt“ der Antike."
+        },
+        {
+          "question": "Zwischen welchen Jahrhunderten geriet die mittelalterliche Denkweise ins Wanken?",
+          "choices": [
+            "Zwischen dem 18. und 19. Jahrhundert",
+            "Zwischen dem 14. und 15. Jahrhundert",
+            "Zwischen dem 10. und 11. Jahrhundert",
+            "Zwischen dem 5. und 6. Jahrhundert"
+          ],
+          "answerIndex": 1,
+          "explanation": "Im Arbeitsblatt steht: Zwischen dem 14. und dem 15. Jh. gerät die mittelalterliche Denkweise ins Wanken."
+        },
+        {
+          "question": "Wodurch kamen Menschen mit dem Orient in Kontakt?",
+          "choices": [
+            "Durch die Kreuzzüge",
+            "Durch die Industrialisierung",
+            "Durch die Erfindung des Autos",
+            "Durch den Buchdruck in Amerika"
+          ],
+          "answerIndex": 0,
+          "explanation": "Seit den Kreuzzügen kamen die Menschen mit dem Orient in Kontakt."
+        },
+        {
+          "question": "Was entstand durch die Kulturbegegnung mit dem Orient?",
+          "choices": [
+            "Nur religiöse Vorschriften",
+            "Ein Wissenszuwachs",
+            "Der vollständige Verlust antiken Wissens",
+            "Ein generelles Bücherverbot"
+          ],
+          "answerIndex": 1,
+          "explanation": "Durch die Kulturbegegnung erhielten die Menschen einen Wissenszuwachs."
+        },
+        {
+          "question": "Warum geriet antikes Wissen im Mittelalter in Vergessenheit?",
+          "choices": [
+            "Es war nur in Stein gemeißelt",
+            "Es durfte nur in Städten gelesen werden",
+            "Es gab keine Bibliotheken",
+            "Es wurde als heidnisch abgelehnt"
+          ],
+          "answerIndex": 3,
+          "explanation": "Antikes Wissen der Römer und Griechen wurde als heidnisch abgelehnt und geriet so in Vergessenheit."
+        },
+        {
+          "question": "Welche zwei antiken Kulturen werden genannt?",
+          "choices": [
+            "Ägypter und Azteken",
+            "Wikinger und Kelten",
+            "Chinesen und Japaner",
+            "Römer und Griechen"
+          ],
+          "answerIndex": 3,
+          "explanation": "Im Text steht: antikes Wissen der Römer und Griechen."
+        },
+        {
+          "question": "Wo suchten Gelehrte nach Büchern aus der Antike?",
+          "choices": [
+            "Auf Marktplätzen",
+            "In Fabriken",
+            "In Festungen",
+            "In Bibliotheken und Klöstern"
+          ],
+          "answerIndex": 3,
+          "explanation": "Gelehrte forschten in Bibliotheken und Klöstern nach Büchern aus dieser Zeit."
+        },
+        {
+          "question": "Was geschah mit einem neuen Fund (Buch/Schrift) aus der Antike?",
+          "choices": [
+            "Er wurde abgeschrieben und an andere Gelehrte geschickt",
+            "Er wurde sofort gedruckt und verschenkt",
+            "Er wurde verbrannt",
+            "Er wurde geheim im Palast eingeschlossen"
+          ],
+          "answerIndex": 0,
+          "explanation": "Jeder neue Fund wurde abgeschrieben und anderen Gelehrten zugeschickt."
+        },
+        {
+          "question": "Was war die Idealvorstellung der Gelehrten der Renaissance?",
+          "choices": [
+            "Keine Forschung betreiben",
+            "Alles Wissen aus der Antike ablehnen",
+            "Nur religiöse Regeln befolgen",
+            "Wissenschaftlich arbeiten ohne Einschränkung durch religiöse Vorschriften der Kirche"
+          ],
+          "answerIndex": 3,
+          "explanation": "Im Text: ohne Einschränkung durch die religiösen Vorschriften der Kirche wissenschaftlich arbeiten können."
+        },
+        {
+          "question": "Welche Begriffe waren für die Renaissance wichtig? (eine richtige Auswahl)",
+          "choices": [
+            "Krieg, Gewissen, Religion",
+            "Religion, Krieg, Vernunft",
+            "Krieg, Moral, Religion",
+            "Vernunft, Wissenschaft, Gewissen"
+          ],
+          "answerIndex": 3,
+          "explanation": "Markiert waren: Vernunft, Wissenschaft, Gewissen."
+        },
+        {
+          "question": "Wer ist auf dem Bild als Statue dargestellt?",
+          "choices": [
+            "David",
+            "Julius Caesar",
+            "Goliath",
+            "Aristoteles"
+          ],
+          "answerIndex": 0,
+          "explanation": "Im Arbeitsblatt: David (König aus der Bibel, vs. Goliath)."
+        },
+        {
+          "question": "Aus welchem Material ist die David-Statue?",
+          "choices": [
+            "Holz",
+            "Bronze",
+            "Marmor",
+            "Ton"
+          ],
+          "answerIndex": 2,
+          "explanation": "Im Blatt steht: Material = Marmor."
+        },
+        {
+          "question": "Welches Detail hebt der Künstler besonders hervor?",
+          "choices": [
+            "Den Körper (z. B. Muskeln, Haare)",
+            "Nur den Hintergrund",
+            "Nur die Kleidung",
+            "Nur das Schwert"
+          ],
+          "answerIndex": 0,
+          "explanation": "Antwort im Blatt: den Körper (Muskeln, Haare...)."
+        },
+        {
+          "question": "Woran orientierte sich die Architektur in der Renaissance?",
+          "choices": [
+            "An antiken Tempeln",
+            "An modernen Wolkenkratzern",
+            "An Burgen des frühen Mittelalters",
+            "An Fabrikhallen"
+          ],
+          "answerIndex": 0,
+          "explanation": "In der Mindmap: Orientierung an antiken Tempeln."
+        },
+        {
+          "question": "Welche Merkmale werden für die Renaissance-Architektur genannt?",
+          "choices": [
+            "Glasfassaden und Stahlträger",
+            "Nur Rundburgen",
+            "Zelte und Holzhütten",
+            "Säulen und Kuppeldächer"
+          ],
+          "answerIndex": 3,
+          "explanation": "In der Mindmap: Säulen, Kuppeldächer."
+        },
+        {
+          "question": "Woran orientierte sich die Kunst in der Renaissance?",
+          "choices": [
+            "An griechisch-römischen Traditionen",
+            "An reiner Kriegskunst",
+            "Nur an zufälligen Formen",
+            "Nur an kirchlichen Verboten"
+          ],
+          "answerIndex": 0,
+          "explanation": "In der Mindmap: Orientierung an griechisch-römischen Traditionen."
+        },
+        {
+          "question": "Wie wurde der Mensch in der Renaissance-Kunst dargestellt?",
+          "choices": [
+            "Nur als Schatten",
+            "Nur als Symbol ohne Details",
+            "Immer verdeckt",
+            "Detailgetreu"
+          ],
+          "answerIndex": 3,
+          "explanation": "In der Mindmap: detailgetreue Darstellung von Menschen."
+        },
+        {
+          "question": "Welche antiken Philosophen werden genannt?",
+          "choices": [
+            "Luther, Calvin, Zwingli",
+            "Newton, Einstein, Curie",
+            "Napoleon, Caesar, Alexander",
+            "Sokrates, Platon, Aristoteles"
+          ],
+          "answerIndex": 3,
+          "explanation": "In der Mindmap: Sokrates, Platon, Aristoteles."
+        },
+        {
+          "question": "Was ist ein genanntes Problem rund um Bücher in der Renaissance?",
+          "choices": [
+            "Bücher gab es gar nicht",
+            "Bücher durften nie gelesen werden",
+            "Bücher waren immer kostenlos",
+            "Bücher waren teuer"
+          ],
+          "answerIndex": 3,
+          "explanation": "In der Mindmap: Bücher werden beliebter – Problem: teuer."
+        },
+        {
+          "question": "Was ist ein weiteres Problem bei Büchern/Handschriften?",
+          "choices": [
+            "Handschriften dauerten lange, weil sie per Hand geschrieben wurden",
+            "Handschriften gab es nur als Bilder",
+            "Handschriften wurden automatisch kopiert",
+            "Handschriften waren immer gedruckt"
+          ],
+          "answerIndex": 0,
+          "explanation": "In der Mindmap: Handschrift per Hand, dauerte lange."
+        },
+        {
+          "question": "Was steht in der Mindmap zur Forschung?",
+          "choices": [
+            "Forschen und Entdecken ohne Zwang der Kirche",
+            "Forschen nur mit Zwang der Kirche",
+            "Forschung nur für Krieg",
+            "Keine Forschung erlaubt"
+          ],
+          "answerIndex": 0,
+          "explanation": "In der Mindmap: Forschen und Entdecken ohne Zwang der Kirche."
+        },
+        {
+          "question": "Was wurde in der Renaissance wieder wichtig?",
+          "choices": [
+            "Nur neue Kriegstechniken",
+            "Nur mittelalterliche Verbote",
+            "Nur Zufallsentdeckungen ohne Quellen",
+            "Wissen der Antike"
+          ],
+          "answerIndex": 3,
+          "explanation": "In der Mindmap: Wissen der Antike / römische und griechische Philosophen wieder wichtig."
         }
       ]
     }

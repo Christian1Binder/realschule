@@ -1,0 +1,113 @@
+{
+  "grade": 7,
+  "subject": "Informationstechnologie",
+  "slug": "informationstechnologie",
+  "accent": "#0ea5e9",
+  "topics": [
+    {
+      "id": "it-001",
+      "title": "Dateisysteme und Ordnerstruktur",
+      "summary": [
+        "Daten auf dem Computer werden in Dateien gespeichert (Texte, Bilder, Programme).",
+        "Eine Dateiendung (z. B. .txt, .jpg, .docx) gibt an, um welche Art von Datei es sich handelt und mit welchem Programm sie geöffnet wird.",
+        "Um Ordnung zu halten, organisiert man Dateien in Verzeichnissen (Ordnern).",
+        "Die Hierarchie der Ordner nennt man Ordnerstruktur (ähnlich einem Baum mit Ästen und Zweigen)."
+      ],
+      "flashcards": [
+        {"q": "Was verrät die Dateiendung (z.B. .jpg) dem Computer?", "a": "Um welchen Dateityp es sich handelt (hier ein Bild) und welches Programm sie öffnen kann."},
+        {"q": "Wofür nutzt man Ordner (Verzeichnisse)?", "a": "Um Dateien übersichtlich und logisch zu sortieren (Ordnerstruktur)."},
+        {"q": "Was ist der Hauptordner auf einem Laufwerk oft genannt?", "a": "Wurzelverzeichnis (Root)."}
+      ],
+      "quiz": [
+        {
+          "question": "Welche Dateiendung steht typischerweise für ein Textdokument?",
+          "choices": [".mp3", ".txt", ".exe", ".png"],
+          "answerIndex": 1,
+          "explanation": "Eine Textdatei endet auf .txt (oder z.B. .docx für Word)."
+        },
+        {
+          "question": "Was passiert, wenn man die Dateiendung einer Datei einfach löscht?",
+          "choices": ["Die Datei wird gelöscht.", "Der Computer weiß möglicherweise nicht mehr, mit welchem Programm er die Datei öffnen soll.", "Die Datei wird komprimiert.", "Die Datei wird unsichtbar."],
+          "answerIndex": 1,
+          "explanation": "Das Betriebssystem nutzt die Endung zur Zuordnung des Standardprogramms."
+        },
+        {
+          "question": "Wie nennt man die baumartige Anordnung von Ordnern und Unterordnern?",
+          "choices": ["Dateisystem/Ordnerstruktur", "Netzwerk", "Internet", "Datenbank"],
+          "answerIndex": 0,
+          "explanation": "Diese Hierarchie strukturiert den Speicherplatz logisch."
+        }
+      ]
+    },
+    {
+      "id": "it-002",
+      "title": "Grundlagen HTML",
+      "summary": [
+        "HTML (Hypertext Markup Language) ist die Sprache des World Wide Web, mit der Webseiten strukturiert werden.",
+        "Ein HTML-Dokument besteht aus Elementen, die durch Tags markiert sind (z. B. <h1> für eine Hauptüberschrift).",
+        "Die meisten Tags haben einen öffnenden (<tag>) und einen schließenden (</tag>) Teil.",
+        "Die grundlegende Struktur besteht aus <html>, <head> (Metadaten, Titel) und <body> (sichtbarer Inhalt)."
+      ],
+      "flashcards": [
+        {"q": "Wofür steht die Abkürzung HTML?", "a": "Hypertext Markup Language."},
+        {"q": "Mit welchem Tag erstellt man einen Absatz?", "a": "<p> ... </p>"},
+        {"q": "In welchem Bereich einer HTML-Datei steht der Inhalt, der im Browser angezeigt wird?", "a": "Im <body>-Bereich."}
+      ],
+      "quiz": [
+        {
+          "question": "Wie sieht ein typischer schließender Tag in HTML aus?",
+          "choices": ["<tag>", "<tag/>", "</tag>", "{tag}"],
+          "answerIndex": 2,
+          "explanation": "Der Schrägstrich (Slash) vor dem Tagnamen markiert das Ende eines Elements."
+        },
+        {
+          "question": "Welches Element enthält den Titel der Webseite, der im Browser-Tab angezeigt wird?",
+          "choices": ["<body>", "<head> (darin <title>)", "<h1>", "<p>"],
+          "answerIndex": 1,
+          "explanation": "Der <title>-Tag im <head> legt den Text für den Browsertab fest."
+        },
+        {
+          "question": "Was macht der <h1>-Tag?",
+          "choices": ["Erstellt eine dicke Linie.", "Erstellt einen Link.", "Macht Text kursiv.", "Definiert die größte Überschrift (Heading 1)."],
+          "answerIndex": 3,
+          "explanation": "h1 bis h6 sind Überschriften unterschiedlicher Hierarchie."
+        }
+      ]
+    },
+    {
+      "id": "it-003",
+      "title": "Datenschutz und sichere Passwörter",
+      "summary": [
+        "Datenschutz bedeutet, dass jeder Mensch das Recht hat, selbst zu bestimmen, wer welche persönlichen Daten von ihm erfährt und nutzt (Informationelle Selbstbestimmung).",
+        "Ein sicheres Passwort ist lang (mindestens 12 Zeichen), enthält Groß- und Kleinbuchstaben, Zahlen und Sonderzeichen.",
+        "Man sollte für jeden wichtigen Dienst (z. B. E-Mail, Online-Banking) ein eigenes, einzigartiges Passwort verwenden.",
+        "Ein Passwort-Manager hilft dabei, sichere Passwörter zu generieren und verschlüsselt zu speichern."
+      ],
+      "flashcards": [
+        {"q": "Was ist das Hauptziel des Datenschutzes?", "a": "Der Schutz der Privatsphäre und das Recht auf informationelle Selbstbestimmung."},
+        {"q": "Nenne drei Eigenschaften eines sicheren Passworts.", "a": "Lang (12+ Zeichen), komplex (Groß-/Kleinschreibung, Zahlen, Sonderzeichen), einzigartig (nicht mehrfach verwendet)."},
+        {"q": "Was ist ein Passwort-Manager?", "a": "Ein Programm, das Passwörter verschlüsselt speichert, sodass man sich nur noch ein Master-Passwort merken muss."}
+      ],
+      "quiz": [
+        {
+          "question": "Warum ist '123456' ein extrem schlechtes Passwort?",
+          "choices": ["Es ist zu kurz.", "Es ist eine der häufigsten Zahlenkombinationen und steht in jedem Wörterbuch für Hacker.", "Es enthält keine Sonderzeichen.", "Alle genannten Antworten sind richtig."],
+          "answerIndex": 3,
+          "explanation": "Es erfüllt keine einzige Anforderung an Komplexität und ist das erste Passwort, das Angreifer ausprobieren."
+        },
+        {
+          "question": "Was bedeutet 'informationelle Selbstbestimmung'?",
+          "choices": ["Man darf alle Informationen im Internet frei kopieren.", "Jeder entscheidet selbst, wem er welche persönlichen Daten gibt.", "Man muss alle seine Daten veröffentlichen.", "Der Staat entscheidet über die Daten seiner Bürger."],
+          "answerIndex": 1,
+          "explanation": "Dieses Grundrecht ist der Kern des Datenschutzes in Deutschland."
+        },
+        {
+          "question": "Was solltest du tun, wenn du auf vielen Seiten denselben Benutzernamen hast?",
+          "choices": ["Überall dasselbe, leichte Passwort verwenden, um es nicht zu vergessen.", "Aufschreiben und an den Monitor kleben.", "Für jede Seite ein anderes, starkes Passwort erstellen (z.B. mit einem Passwort-Manager).", "Gar kein Passwort setzen."],
+          "answerIndex": 2,
+          "explanation": "Wird ein Server gehackt, probieren die Täter die Kombination auf allen anderen bekannten Seiten aus."
+        }
+      ]
+    }
+  ]
+}

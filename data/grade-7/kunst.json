@@ -1,0 +1,116 @@
+{
+  "grade": 7,
+  "subject": "Kunst",
+  "slug": "kunst",
+  "accent": "#d946ef",
+  "topics": [
+    {
+      "id": "kun-001",
+      "title": "Der Farbkreis und Komplementärfarben",
+      "summary": [
+        "Der Farbkreis (z. B. nach Johannes Itten) ordnet Farben systematisch.",
+        "Primärfarben (Grundfarben): Gelb, Rot, Blau (können nicht aus anderen gemischt werden).",
+        "Sekundärfarben: Entstehen durch Mischen zweier Primärfarben (Orange, Grün, Violett).",
+        "Komplementärfarben: Farben, die sich im Farbkreis genau gegenüberliegen (z. B. Rot und Grün, Blau und Orange, Gelb und Violett).",
+        "Komplementärkontrast: Setzt man diese Farben nebeneinander, verstärken sie sich gegenseitig in ihrer Leuchtkraft."
+      ],
+      "flashcards": [
+        {"q": "Welche drei Farben sind die Primärfarben?", "a": "Gelb, Rot (Magenta) und Blau (Cyan)."},
+        {"q": "Was passiert, wenn man Gelb und Blau mischt?", "a": "Es entsteht Grün (eine Sekundärfarbe)."},
+        {"q": "Was ist die Komplementärfarbe zu Rot?", "a": "Grün (liegt im Farbkreis gegenüber)."}
+      ],
+      "quiz": [
+        {
+          "question": "Welche Farbe erhältst du, wenn du Rot und Gelb mischst?",
+          "choices": ["Braun", "Violett", "Orange", "Weiß"],
+          "answerIndex": 2,
+          "explanation": "Gelb und Rot ergeben die Sekundärfarbe Orange."
+        },
+        {
+          "question": "Was bewirkt ein Komplementärkontrast (z. B. Rot neben Grün)?",
+          "choices": ["Die Farben sehen stumpf aus.", "Die Farben leuchten besonders stark (Farbsteigerung).", "Sie vermischen sich zu Schwarz.", "Es entsteht ein Schwarz-Weiß-Bild."],
+          "answerIndex": 1,
+          "explanation": "Das Auge empfindet nebeneinanderliegende Komplementärfarben als sehr intensiv und kontrastreich."
+        },
+        {
+          "question": "Welche Farbgruppe kann NICHT durch Mischen erzeugt werden?",
+          "choices": ["Sekundärfarben", "Tertiärfarben", "Primärfarben", "Pastellfarben"],
+          "answerIndex": 2,
+          "explanation": "Grundfarben (Primärfarben) sind der Ausgangspunkt für alle anderen Mischungen."
+        }
+      ]
+    },
+    {
+      "id": "kun-002",
+      "title": "Perspektive: Der Fluchtpunkt (Basics)",
+      "summary": [
+        "Um auf einem flachen Papier Tiefe (3D) zu erzeugen, nutzt man die Zentralperspektive.",
+        "Die Horizontlinie (Augenhöhe des Betrachters) ist die waagerechte Grundlinie.",
+        "Der Fluchtpunkt liegt auf der Horizontlinie.",
+        "Alle Linien, die in die Tiefe des Raumes verlaufen (Fluchtlinien), treffen sich in diesem Fluchtpunkt.",
+        "Dinge, die weiter weg sind, werden kleiner gezeichnet."
+      ],
+      "flashcards": [
+        {"q": "Was ist der Zweck der Zentralperspektive?", "a": "Auf einer zweidimensionalen Fläche (Papier) den Eindruck von Tiefe (3D) zu erzeugen."},
+        {"q": "Was ist die Horizontlinie?", "a": "Eine waagerechte Linie, die die Augenhöhe des Betrachters darstellt."},
+        {"q": "Wo treffen sich alle in die Tiefe laufenden Linien (z. B. einer Straße)?", "a": "Im Fluchtpunkt auf der Horizontlinie."}
+      ],
+      "quiz": [
+        {
+          "question": "Was passiert mit Objekten (z. B. Bäumen an einer Straße), je näher sie dem Fluchtpunkt kommen?",
+          "choices": ["Sie werden breiter.", "Sie werden größer gezeichnet.", "Sie werden kleiner gezeichnet.", "Sie verschwinden sofort."],
+          "answerIndex": 2,
+          "explanation": "Dinge, die weiter weg sind (nahe dem Fluchtpunkt), erscheinen dem Auge kleiner."
+        },
+        {
+          "question": "Auf welcher Linie liegt der Fluchtpunkt bei der Einpunktperspektive?",
+          "choices": ["Auf der vertikalen Mittelachse.", "Auf der Horizontlinie.", "Auf der Bildkante unten.", "Im Vordergrund."],
+          "answerIndex": 1,
+          "explanation": "Der Fluchtpunkt liegt auf der Augenhöhe des Betrachters (Horizontlinie)."
+        },
+        {
+          "question": "Wie nennt man die Linien, die auf den Fluchtpunkt zulaufen?",
+          "choices": ["Horizontlinien", "Fluchtlinien", "Schattenlinien", "Zentrallinien"],
+          "answerIndex": 1,
+          "explanation": "Diese Hilfslinien konstruieren die räumliche Tiefe."
+        }
+      ]
+    },
+    {
+      "id": "kun-003",
+      "title": "Bildanalyse: Raumaufteilung",
+      "summary": [
+        "Bilder werden oft in drei Raumebenen eingeteilt, um Tiefe zu suggerieren.",
+        "Vordergrund: Der untere Bildteil, Objekte sind groß, detailreich und oft dunkel (Schatten).",
+        "Mittelgrund: Die Bildmitte, hier spielt sich oft die Haupthandlung ab, Objekte sind mittelgroß.",
+        "Hintergrund: Der obere Bildteil (Himmel, ferne Berge), Objekte sind klein, oft blasser und weniger detailliert (Luftperspektive).",
+        "Goldener Schnitt: Eine harmonische Aufteilung des Bildes (das Hauptmotiv liegt nicht genau in der Mitte)."
+      ],
+      "flashcards": [
+        {"q": "Wie nennt man den Bereich eines Bildes, der dem Betrachter am nächsten ist?", "a": "Den Vordergrund."},
+        {"q": "Warum wirken ferne Berge oft bläulich oder blass?", "a": "Wegen der Luftperspektive (Dunst in der Atmosphäre verringert Kontraste)."},
+        {"q": "Wo in einem klassischen Landschaftsbild befindet sich meist der Himmel?", "a": "Im Hintergrund (meist oberer Bildteil)."}
+      ],
+      "quiz": [
+        {
+          "question": "In welcher Raumebene sind Details (wie Blätter an einem Baum) am deutlichsten zu erkennen?",
+          "choices": ["Hintergrund", "Mittelgrund", "Vordergrund", "Luftperspektive"],
+          "answerIndex": 2,
+          "explanation": "Objekte im Vordergrund sind groß und detailreich."
+        },
+        {
+          "question": "Was ist eine gängige Gestaltungsregel, um ein Bild interessanter zu machen (statt das Motiv genau in die Mitte zu setzen)?",
+          "choices": ["Symmetrieachse", "Goldener Schnitt (oder Drittel-Regel)", "Farbkreis", "Komplementärkontrast"],
+          "answerIndex": 1,
+          "explanation": "Das Bild wird in Drittel geteilt, das Hauptmotiv wird an den Schnittpunkten platziert."
+        },
+        {
+          "question": "Wo spielt sich in vielen Gemälden das Hauptgeschehen ab?",
+          "choices": ["Versteckt in den Ecken", "Ganz am Rand", "Im Mittelgrund", "Hinter dem Fluchtpunkt"],
+          "answerIndex": 2,
+          "explanation": "Der Mittelgrund verbindet Vorder- und Hintergrund und fokussiert oft die Handlung."
+        }
+      ]
+    }
+  ]
+}

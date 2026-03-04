@@ -1,0 +1,114 @@
+{
+  "grade": 7,
+  "subject": "Geografie",
+  "slug": "geografie",
+  "accent": "#f59e0b",
+  "topics": [
+    {
+      "id": "geo-001",
+      "title": "Klimazonen der Erde",
+      "summary": [
+        "Die Erde wird in verschiedene Klimazonen eingeteilt, bedingt durch den Einstrahlungswinkel der Sonne.",
+        "Polarzone: Sehr kalt, Eis und Schnee, Tundra.",
+        "Gemäßigte Zone: Vier Jahreszeiten, Laub- und Mischwälder (wie bei uns).",
+        "Subtropen: Heiße Sommer, milde Winter, oft Wüsten und Savannen.",
+        "Tropen: Heiß und feucht (Äquatornähe), Regenwald, keine Jahreszeiten."
+      ],
+      "flashcards": [
+        {"q": "Welche Klimazone liegt am Äquator?", "a": "Die Tropen."},
+        {"q": "In welcher Klimazone leben wir (Deutschland)?", "a": "In der gemäßigten Zone."},
+        {"q": "Was bestimmt hauptsächlich die Klimazonen?", "a": "Der Einstrahlungswinkel der Sonne auf die Erdoberfläche."}
+      ],
+      "quiz": [
+        {
+          "question": "Welche Klimazone hat vier deutlich unterscheidbare Jahreszeiten?",
+          "choices": ["Polarzone", "Gemäßigte Zone", "Subtropen", "Tropen"],
+          "answerIndex": 1,
+          "explanation": "Frühling, Sommer, Herbst und Winter prägen die gemäßigte Zone."
+        },
+        {
+          "question": "Wo wächst der tropische Regenwald?",
+          "choices": ["Polarzone", "Gemäßigte Zone", "Subtropen", "Tropen (nahe dem Äquator)"],
+          "answerIndex": 3,
+          "explanation": "Durch das ganzjährig feuchtheiße Klima gedeiht der Regenwald."
+        },
+        {
+          "question": "Warum ist es an den Polen so kalt?",
+          "choices": ["Dort ist die Erde dicker.", "Die Sonnenstrahlen treffen sehr flach auf.", "Es gibt dort keine Wolken.", "Der Ozean kühlt alles ab."],
+          "answerIndex": 1,
+          "explanation": "Je flacher der Einstrahlungswinkel, desto weniger Energie kommt pro Fläche an."
+        }
+      ]
+    },
+    {
+      "id": "geo-002",
+      "title": "Orientierung: Kartenmaßstab und Koordinaten",
+      "summary": [
+        "Maßstab: Gibt das Verhältnis zwischen Karte und Wirklichkeit an (z.B. 1:100.000 bedeutet 1 cm auf der Karte sind 100.000 cm in der Natur = 1 km).",
+        "Gradnetz der Erde: Ein gedankliches Netz aus Längen- und Breitengraden zur genauen Ortsbestimmung.",
+        "Äquator (0° Breite) teilt die Erde in Nord- und Südhalbkugel.",
+        "Nullmeridian (0° Länge) teilt die Erde in West- und Osthalbkugel (verläuft durch Greenwich, London)."
+      ],
+      "flashcards": [
+        {"q": "Was bedeutet ein Maßstab von 1:50.000?", "a": "1 cm auf der Karte entspricht 50.000 cm (500 m) in der Realität."},
+        {"q": "Welche Linie teilt die Erde in Nord und Süd?", "a": "Der Äquator."},
+        {"q": "Wo verläuft der Nullmeridian?", "a": "Durch Greenwich (London)."}
+      ],
+      "quiz": [
+        {
+          "question": "Welcher Maßstab zeigt das größte Gebiet (kleinster Maßstab)?",
+          "choices": ["1:10.000", "1:50.000", "1:100.000", "1:1.000.000"],
+          "answerIndex": 3,
+          "explanation": "Je größer die Zahl hinter dem Doppelpunkt, desto stärker ist die Karte verkleinert."
+        },
+        {
+          "question": "Wie nennt man die Kreise, die parallel zum Äquator verlaufen?",
+          "choices": ["Längengrade", "Breitengrade", "Meridiane", "Wendekreise"],
+          "answerIndex": 1,
+          "explanation": "Breitengrade verlaufen wie Ringe um die Erde parallel zum Äquator."
+        },
+        {
+          "question": "Wie viele Zentimeter sind 1 Kilometer?",
+          "choices": ["100 cm", "1.000 cm", "10.000 cm", "100.000 cm"],
+          "answerIndex": 3,
+          "explanation": "1 km = 1.000 m, 1 m = 100 cm. Also 1.000 * 100 = 100.000 cm."
+        }
+      ]
+    },
+    {
+      "id": "geo-003",
+      "title": "Europa: Wichtige Länder und Gebirge",
+      "summary": [
+        "Europa ist ein vielseitiger Kontinent mit vielen Ländern (z.B. Frankreich, Italien, Polen, Schweden).",
+        "Wichtige Gebirge: Alpen (Zentraleuropa), Pyrenäen (zwischen Spanien und Frankreich), Karpaten (Osteuropa).",
+        "Wichtige Flüsse: Donau (fließt ins Schwarze Meer), Rhein (fließt in die Nordsee), Wolga (längster Fluss Europas, in Russland).",
+        "Europäische Union (EU): Politischer und wirtschaftlicher Zusammenschluss vieler europäischer Staaten."
+      ],
+      "flashcards": [
+        {"q": "Welches Gebirge trennt Spanien und Frankreich?", "a": "Die Pyrenäen."},
+        {"q": "Welches ist der längste Fluss Europas?", "a": "Die Wolga."},
+        {"q": "In welches Meer fließt der Rhein?", "a": "In die Nordsee."}
+      ],
+      "quiz": [
+        {
+          "question": "Welches Gebirge liegt teilweise in Deutschland, Österreich und der Schweiz?",
+          "choices": ["Pyrenäen", "Karpaten", "Alpen", "Ural"],
+          "answerIndex": 2,
+          "explanation": "Die Alpen sind das höchste und größte Gebirge im Inneren Europas."
+        },
+        {
+          "question": "Welches europäische Land grenzt direkt an Deutschland im Westen?",
+          "choices": ["Polen", "Österreich", "Frankreich", "Italien"],
+          "answerIndex": 2,
+          "explanation": "Frankreich liegt westlich von Deutschland."
+        },
+        {
+          "question": "In welches Meer mündet die Donau?",
+          "choices": ["Nordsee", "Ostsee", "Schwarzes Meer", "Mittelmeer"],
+          "answerIndex": 2,
+          "explanation": "Die Donau fließt ostwärts durch mehrere Länder ins Schwarze Meer."
+        }
+      ]
+    }
+  ]
+}

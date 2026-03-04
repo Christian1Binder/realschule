@@ -1,0 +1,114 @@
+{
+  "grade": 7,
+  "subject": "Biologie",
+  "slug": "biologie",
+  "accent": "#10b981",
+  "topics": [
+    {
+      "id": "bio-001",
+      "title": "Fotosynthese",
+      "summary": [
+        "Pflanzen stellen ihre Nahrung (Traubenzucker) selbst her.",
+        "Sie benötigen dazu: Sonnenlicht, Wasser (H2O) und Kohlenstoffdioxid (CO2).",
+        "Der Prozess findet in den Chloroplasten (mit dem grünen Farbstoff Chlorophyll) der Blätter statt.",
+        "Als Abfallprodukt entsteht Sauerstoff (O2), den wir zum Atmen brauchen."
+      ],
+      "flashcards": [
+        {"q": "Was stellen Pflanzen bei der Fotosynthese her?", "a": "Traubenzucker (Glucose) und Sauerstoff."},
+        {"q": "Was brauchen Pflanzen für die Fotosynthese?", "a": "Licht, Wasser und Kohlenstoffdioxid."},
+        {"q": "Wo in der Pflanze findet die Fotosynthese statt?", "a": "In den Chloroplasten (Blätter)."}
+      ],
+      "quiz": [
+        {
+          "question": "Welches Gas nehmen Pflanzen bei der Fotosynthese auf?",
+          "choices": ["Sauerstoff", "Kohlenstoffdioxid", "Stickstoff", "Wasserstoff"],
+          "answerIndex": 1,
+          "explanation": "Pflanzen benötigen CO2 aus der Luft."
+        },
+        {
+          "question": "Welcher Farbstoff ist für die grüne Farbe der Blätter verantwortlich?",
+          "choices": ["Melanin", "Karotin", "Chlorophyll", "Hämoglobin"],
+          "answerIndex": 2,
+          "explanation": "Chlorophyll fängt das Sonnenlicht ein."
+        },
+        {
+          "question": "Was ist das Hauptziel der Fotosynthese für die Pflanze?",
+          "choices": ["Sauerstoff produzieren", "Traubenzucker herstellen", "Wasser speichern", "Schatten spenden"],
+          "answerIndex": 1,
+          "explanation": "Die Pflanze stellt Traubenzucker als Energiequelle her."
+        }
+      ]
+    },
+    {
+      "id": "bio-002",
+      "title": "Ökosystem Wald",
+      "summary": [
+        "Ein Ökosystem ist das Zusammenwirken von Lebewesen (Biozönose) und ihrem Lebensraum (Biotop).",
+        "Stockwerke des Waldes: Bodenschicht, Moosschicht, Krautschicht, Strauchschicht, Baumschicht.",
+        "Nahrungsketten: Produzenten (Pflanzen) -> Konsumenten (Tiere) -> Destruenten (Zersetzer wie Pilze/Bakterien).",
+        "Der Wald bietet Lebensraum, reguliert das Klima und produziert Sauerstoff."
+      ],
+      "flashcards": [
+        {"q": "Welches ist die höchste Schicht im Wald?", "a": "Die Baumschicht."},
+        {"q": "Was ist die Rolle der Destruenten?", "a": "Sie zersetzen totes Material wieder in Mineralstoffe."},
+        {"q": "Was sind Produzenten im Wald?", "a": "Die Pflanzen (Erzeuger von Biomasse)."}
+      ],
+      "quiz": [
+        {
+          "question": "Welche Schicht liegt direkt über dem Boden?",
+          "choices": ["Baumschicht", "Krautschicht", "Moosschicht", "Strauchschicht"],
+          "answerIndex": 2,
+          "explanation": "Die Moosschicht befindet sich am Boden."
+        },
+        {
+          "question": "Wer steht typischerweise am Anfang einer Nahrungskette?",
+          "choices": ["Raubtier", "Pflanze (Produzent)", "Pilz (Zersetzer)", "Insekt"],
+          "answerIndex": 1,
+          "explanation": "Pflanzen (Produzenten) stellen aus Sonnenlicht Energie her."
+        },
+        {
+          "question": "Was gehört zur Biozönose?",
+          "choices": ["Nur Pflanzen", "Nur Tiere", "Alle Lebewesen (Tiere, Pflanzen, Pilze)", "Der unbelebte Raum (Boden, Klima)"],
+          "answerIndex": 2,
+          "explanation": "Biozönose bezeichnet die Lebensgemeinschaft aller Organismen."
+        }
+      ]
+    },
+    {
+      "id": "bio-003",
+      "title": "Atmung und Blutkreislauf",
+      "summary": [
+        "Atmung: Aufnahme von Sauerstoff (O2) in die Lunge, Abgabe von Kohlenstoffdioxid (CO2).",
+        "Der Gasaustausch findet in den Lungenbläschen statt.",
+        "Blutkreislauf: Das Herz pumpt Blut durch den Körper.",
+        "Arterien (Schlagadern): Führen das Blut vom Herzen weg (meist sauerstoffreich).",
+        "Venen: Führen das Blut zum Herzen hin (meist sauerstoffarm)."
+      ],
+      "flashcards": [
+        {"q": "Welches Organ pumpt das Blut?", "a": "Das Herz."},
+        {"q": "Was ist die Aufgabe der Lungenbläschen?", "a": "Dort findet der Gasaustausch statt (O2 ins Blut, CO2 in die Luft)."},
+        {"q": "Wie nennt man Blutgefäße, die zum Herzen führen?", "a": "Venen."}
+      ],
+      "quiz": [
+        {
+          "question": "Wo findet der Gasaustausch beim Atmen statt?",
+          "choices": ["Im Herzen", "In der Luftröhre", "In den Lungenbläschen", "Im Magen"],
+          "answerIndex": 2,
+          "explanation": "Die Lungenbläschen sind eng mit feinen Blutgefäßen umschlossen."
+        },
+        {
+          "question": "Welche Blutgefäße transportieren Blut VOM Herzen WEG?",
+          "choices": ["Venen", "Arterien (Schlagadern)", "Lungen", "Kapillaren"],
+          "answerIndex": 1,
+          "explanation": "Arterien leiten das Blut in den Körper."
+        },
+        {
+          "question": "Welches Gas atmen wir ein, um zu überleben?",
+          "choices": ["Kohlenstoffdioxid", "Stickstoff", "Helium", "Sauerstoff"],
+          "answerIndex": 3,
+          "explanation": "Zellen benötigen Sauerstoff zur Energiegewinnung."
+        }
+      ]
+    }
+  ]
+}

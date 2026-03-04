@@ -1,0 +1,114 @@
+{
+  "grade": 7,
+  "subject": "Religion",
+  "slug": "religion",
+  "accent": "#6366f1",
+  "topics": [
+    {
+      "id": "rel-001",
+      "title": "Gleichnisse: Worum geht’s?",
+      "summary": [
+        "Jesus sprach oft in Gleichnissen (bildhafte Erzählungen aus dem Alltag der Menschen damals).",
+        "Ein Gleichnis hat eine Bildebene (die erzählte Geschichte, z. B. über Landwirtschaft) und eine Sachebene (die Bedeutung für den Glauben, z. B. das Reich Gottes).",
+        "Beispiel: Das Gleichnis vom verlorenen Sohn (Lukas 15) – Ein Vater vergibt seinem Sohn bedingungslos, egal was dieser getan hat. Bedeutung: So verzeiht Gott den Menschen (Barmherzigkeit).",
+        "Beispiel: Das Gleichnis vom Senfkorn – Aus dem kleinsten Samen wird ein riesiger Baum. Bedeutung: Das Reich Gottes fängt klein an und wird gewaltig."
+      ],
+      "flashcards": [
+        {"q": "Was ist ein Gleichnis?", "a": "Eine bildhafte Erzählung, die einen abstrakten Gedanken (z. B. über Gott) anschaulich erklärt."},
+        {"q": "Was bedeuten 'Bildebene' und 'Sachebene'?", "a": "Die Bildebene ist die Geschichte selbst, die Sachebene die theologische Bedeutung dahinter."},
+        {"q": "Was ist die Kernbotschaft des Gleichnisses vom verlorenen Sohn?", "a": "Bedingungslose Vergebung und Gottes Barmherzigkeit."}
+      ],
+      "quiz": [
+        {
+          "question": "Worum geht es im Gleichnis vom Senfkorn?",
+          "choices": ["Aus etwas Kleinem (Senfkorn) wächst das riesige Reich Gottes.", "Dass man viel Senf essen soll.", "Dass ein Vater seinem Sohn verzeiht.", "Dass man sein Geld gut anlegen muss."],
+          "answerIndex": 0,
+          "explanation": "Es ist ein Wachstums- und Hoffnungsgleichnis über das Reich Gottes."
+        },
+        {
+          "question": "Warum benutzte Jesus damals oft Beispiele aus der Landwirtschaft oder dem Handwerk?",
+          "choices": ["Weil er selbst Bauer war.", "Weil das der Alltag der Zuhörer war und sie es so gut verstehen konnten.", "Weil es keine anderen Berufe gab.", "Weil diese Geschichten geheim waren."],
+          "answerIndex": 1,
+          "explanation": "Durch Alltagsbilder (Sämann, Fischer, Hirte) verstanden die Menschen die komplexe Botschaft Gottes."
+        },
+        {
+          "question": "Wer verzeiht dem heimgekehrten jüngeren Sohn im Gleichnis bedingungslos?",
+          "choices": ["Sein älterer Bruder.", "Der Bürgermeister.", "Sein Vater (als Symbol für Gott).", "Der Pfarrer."],
+          "answerIndex": 2,
+          "explanation": "Der Vater läuft ihm entgegen und nimmt ihn in Liebe wieder auf, als Bild für Gottes verzeihende Liebe."
+        }
+      ]
+    },
+    {
+      "id": "rel-002",
+      "title": "Das Kirchenjahr: Wichtige Feste",
+      "summary": [
+        "Das Kirchenjahr (liturgisches Jahr) strukturiert das Jahr nach den Ereignissen im Leben Jesu.",
+        "Es beginnt nicht am 1. Januar, sondern mit dem 1. Advent (Erwartung der Geburt Jesu).",
+        "Weihnachten: Geburt Jesu in Betlehem.",
+        "Ostern: Das wichtigste Fest; Kreuzigung (Karfreitag) und Auferstehung Jesu (Ostersonntag).",
+        "Pfingsten: 50 Tage nach Ostern; Die Aussendung des Heiligen Geistes an die Jünger ('Geburtstag der Kirche')."
+      ],
+      "flashcards": [
+        {"q": "Wann beginnt das Kirchenjahr?", "a": "Am 1. Adventssonntag."},
+        {"q": "Welches ist das höchste/wichtigste Fest der Christen?", "a": "Ostern (die Feier der Auferstehung Jesu)."},
+        {"q": "Was wird an Pfingsten gefeiert?", "a": "Die Herabkunft des Heiligen Geistes ('Geburtstag der Kirche')."}
+      ],
+      "quiz": [
+        {
+          "question": "Was feiern Christen an Weihnachten?",
+          "choices": ["Die Auferstehung Jesu.", "Die Geburt Jesu Christi.", "Den Beginn der Fastenzeit.", "Die Entstehung der Kirche."],
+          "answerIndex": 1,
+          "explanation": "Weihnachten erinnert an die Fleischwerdung (Menschwerdung) Gottes in Jesus (Lukas 2)."
+        },
+        {
+          "question": "Was geschah laut der Bibel am Karfreitag?",
+          "choices": ["Jesus wurde in Betlehem geboren.", "Jesus zog in Jerusalem ein (Palmsonntag).", "Jesus wurde gekreuzigt und starb.", "Der Heilige Geist kam auf die Erde."],
+          "answerIndex": 2,
+          "explanation": "Karfreitag ist ein Trauertag zur Erinnerung an das Leiden und Sterben am Kreuz."
+        },
+        {
+          "question": "Welches Fest wird oft als 'Geburtstag der Kirche' bezeichnet?",
+          "choices": ["Ostern", "Weihnachten", "Erntedank", "Pfingsten"],
+          "answerIndex": 3,
+          "explanation": "Weil durch den Heiligen Geist die ängstlichen Jünger ermutigt wurden, offen von Jesus zu predigen (Apg 2)."
+        }
+      ]
+    },
+    {
+      "id": "rel-003",
+      "title": "Nächstenliebe im Alltag",
+      "summary": [
+        "Das Doppelgebot der Liebe (Mk 12,30-31): 'Du sollst Gott lieben... und deinen Nächsten wie dich selbst.'",
+        "Der 'Nächste' ist nicht nur der Freund oder die Familie, sondern jeder Mensch, der Hilfe braucht.",
+        "Beispielgeschichte: Der barmherzige Samariter (Lukas 10) – Ein Ausländer/Feind hilft einem Überfallenen, während Priester achtlos vorbeigehen.",
+        "Im Alltag heißt Nächstenliebe: Respekt, Zivilcourage (Eingreifen bei Mobbing), Spenden, Teilen, füreinander da sein."
+      ],
+      "flashcards": [
+        {"q": "Was ist das Doppelgebot der Liebe?", "a": "Die Zusammenfassung aller Gesetze: Gott lieben und den Nächsten wie sich selbst lieben."},
+        {"q": "Wer ist laut Jesus mein 'Nächster'?", "a": "Jeder Mensch in meiner Nähe, der in Not ist und Hilfe braucht (auch Fremde/Feinde)."},
+        {"q": "Wer half dem ausgeraubten Mann im Gleichnis vom barmherzigen Samariter?", "a": "Ein Samariter (damals ein verfeindetes Nachbarvolk der Juden), nachdem fromme Leute vorbeigegangen waren."}
+      ],
+      "quiz": [
+        {
+          "question": "Wie reagiert der Samariter im Gleichnis auf den überfallenen Verletzten?",
+          "choices": ["Er wechselt die Straßenseite.", "Er betet für ihn, geht aber weiter.", "Er verbindet die Wunden, bringt ihn zur Herberge und bezahlt die Pflege.", "Er ruft die Polizei."],
+          "answerIndex": 2,
+          "explanation": "Der Samariter handelt konkret und uneigennützig."
+        },
+        {
+          "question": "Was gehört neben der Liebe zu Gott und zum Nächsten zum Doppelgebot der Liebe?",
+          "choices": ["Liebe zu Tieren.", "Liebe zum Reichtum.", "Liebe zu sich selbst ('wie dich selbst').", "Liebe zur Natur."],
+          "answerIndex": 2,
+          "explanation": "Selbstannahme ist die Voraussetzung, um andere lieben zu können."
+        },
+        {
+          "question": "Wie kann Zivilcourage in der Schule aussehen (als Form der Nächstenliebe)?",
+          "choices": ["Wegschauen, wenn jemand gemobbt wird.", "Hilfe holen oder für den Gemobbten einstehen.", "Mitlachen, um nicht selbst Opfer zu werden.", "Die Hausaufgaben abschreiben lassen."],
+          "answerIndex": 1,
+          "explanation": "Mutig helfen, ohne sich selbst in Gefahr zu bringen, ist gelebte Nächstenliebe."
+        }
+      ]
+    }
+  ]
+}

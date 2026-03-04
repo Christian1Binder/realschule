@@ -1,0 +1,113 @@
+{
+  "grade": 7,
+  "subject": "Geschichte",
+  "slug": "geschichte",
+  "accent": "#92400e",
+  "topics": [
+    {
+      "id": "ges-001",
+      "title": "Mittelalter: Die Ständeordnung",
+      "summary": [
+        "Die Gesellschaft im Mittelalter war in drei Stände unterteilt, die als von Gott gegeben galten.",
+        "1. Stand: Klerus (Geistliche, Bischöfe, Mönche) – Beten für das Seelenheil.",
+        "2. Stand: Adel (Ritter, Fürsten, König) – Beschützen das Volk und regieren.",
+        "3. Stand: Bauern und Handwerker (ca. 90% der Bevölkerung) – Arbeiten und ernähren die anderen Stände."
+      ],
+      "flashcards": [
+        {"q": "Wer gehörte zum ersten Stand?", "a": "Die Geistlichen (Klerus)."},
+        {"q": "Was war die Hauptaufgabe des zweiten Standes?", "a": "Schützen und herrschen (Adel/Ritter)."},
+        {"q": "Welcher Stand stellte den größten Teil der Bevölkerung?", "a": "Der dritte Stand (Bauern)."}
+      ],
+      "quiz": [
+        {
+          "question": "Welcher Stand arbeitete auf den Feldern?",
+          "choices": ["1. Stand", "2. Stand", "3. Stand", "Der König"],
+          "answerIndex": 2,
+          "explanation": "Bauern und Handwerker bildeten den arbeitsamen 3. Stand."
+        },
+        {
+          "question": "Von wem stammte laut mittelalterlicher Vorstellung die Ständeordnung?",
+          "choices": ["Vom Papst", "Von Gott", "Vom Kaiser", "Von den Bauern"],
+          "answerIndex": 1,
+          "explanation": "Die Ordnung galt als gottgewollt, um Aufstände zu verhindern."
+        },
+        {
+          "question": "Wer betete für das Seelenheil aller?",
+          "choices": ["Ritter", "Klerus", "Bürgertum", "Leibeigene"],
+          "answerIndex": 1,
+          "explanation": "Geistliche, Mönche und Priester bildeten den Klerus."
+        }
+      ]
+    },
+    {
+      "id": "ges-002",
+      "title": "Stadtleben im Mittelalter",
+      "summary": [
+        "Städte boten Schutz durch eine Stadtmauer und eigene Rechte (Stadtrecht).",
+        "'Stadtluft macht frei': Leibeigene Bauern, die ein Jahr in der Stadt lebten, wurden freie Bürger.",
+        "Handwerker organisierten sich in Zünften (Berufsverbände, die Preise und Qualität regelten).",
+        "Kaufleute schlossen sich zu Gilden zusammen (Schutz und Handelsprivilegien)."
+      ],
+      "flashcards": [
+        {"q": "Was bedeutete 'Stadtluft macht frei nach Jahr und Tag'?", "a": "Ein geflohener leibeigener Bauer wurde frei, wenn ihn sein Herr ein Jahr und einen Tag nicht in der Stadt aufspürte."},
+        {"q": "Was war eine Zunft?", "a": "Ein Zusammenschluss von Handwerkern desselben Berufs in einer Stadt."},
+        {"q": "Warum bauten Städte Mauern?", "a": "Zum Schutz vor Angriffen und Dieben."}
+      ],
+      "quiz": [
+        {
+          "question": "Was kontrollierte die Zunft?",
+          "choices": ["Die Steuern des Königs.", "Die Preise und die Qualität der Waren der Handwerker.", "Die militärische Verteidigung.", "Den Kirchenbau."],
+          "answerIndex": 1,
+          "explanation": "Zünfte sicherten das Einkommen der Handwerker und bestimmten die Standards."
+        },
+        {
+          "question": "Wer schloss sich in Gilden zusammen?",
+          "choices": ["Bauern", "Ritter", "Kaufleute", "Mönche"],
+          "answerIndex": 2,
+          "explanation": "Kaufleute organisierten sich in Gilden (ähnlich wie die Zünfte der Handwerker)."
+        },
+        {
+          "question": "Wer regierte ursprünglich oft in einer entstehenden Stadt?",
+          "choices": ["Der Stadtrat (Patrizier)", "Der Bischof oder ein Stadtherr", "Der Papst", "Die Zunftmeister"],
+          "answerIndex": 1,
+          "explanation": "Oft gehörte der Boden einem Stadtherrn, bevor sich Bürger eigene Rechte erkämpften."
+        }
+      ]
+    },
+    {
+      "id": "ges-003",
+      "title": "Die Reformation (Grundidee)",
+      "summary": [
+        "Anfang des 16. Jahrhunderts: Kritik an der katholischen Kirche wuchs (z.B. Ablasshandel: Sündenvergebung gegen Geld).",
+        "Martin Luther (1517): Veröffentlichung der 95 Thesen gegen den Ablasshandel.",
+        "Kernbotschaft Luthers: Sündenvergebung gibt es nur durch Gottes Gnade und Glauben, nicht gegen Geld.",
+        "Folge: Spaltung der westlichen Kirche in katholische und evangelische (protestantische) Konfessionen."
+      ],
+      "flashcards": [
+        {"q": "Was kritisierte Martin Luther besonders am Klerus?", "a": "Den Ablasshandel (Verkauf von Vergebung der Sünden)."},
+        {"q": "Was war 1517 Luthers berühmteste Aktion?", "a": "Er veröffentlichte seine 95 Thesen."},
+        {"q": "Was war die Hauptfolge der Reformation?", "a": "Die Spaltung der Kirche (katholisch vs. evangelisch/protestantisch)."}
+      ],
+      "quiz": [
+        {
+          "question": "Was war der 'Ablasshandel'?",
+          "choices": ["Der Handel mit Gewürzen aus dem Orient.", "Der Freikauf von Sündenstrafen durch Geldzahlungen.", "Der Verkauf von Kirchenämtern.", "Das Eintauschen von Land gegen Schutz."],
+          "answerIndex": 1,
+          "explanation": "Geld zahlen für einen Erlass der Sündenstrafen im Fegefeuer."
+        },
+        {
+          "question": "Wie erlangt der Mensch laut Luther Sündenvergebung?",
+          "choices": ["Durch gute Werke", "Durch Pilgerfahrten", "Allein durch Glauben und Gottes Gnade", "Durch den Papst"],
+          "answerIndex": 2,
+          "explanation": "'Sola fide' (allein durch den Glauben) und 'sola gratia' (allein durch Gnade)."
+        },
+        {
+          "question": "Welche Konfession ging aus Luthers Lehren hervor?",
+          "choices": ["Katholisch", "Orthodox", "Evangelisch (Protestantisch)", "Anglikanisch"],
+          "answerIndex": 2,
+          "explanation": "Luthers Anhänger wurden die Protestanten (Evangelischen)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "grade": 7,
+  "subject": "Sport",
+  "slug": "sport",
+  "accent": "#14b8a6",
+  "topics": [
+    {
+      "id": "spo-001",
+      "title": "Aufwärmen: Warum und wie?",
+      "summary": [
+        "Aufwärmen (Warm-up) ist vor jedem Sport wichtig, um Verletzungen vorzubeugen und die Leistung zu steigern.",
+        "Körperliche Effekte: Die Körpertemperatur steigt, die Durchblutung der Muskeln wird verbessert, Gelenkschmiere wird gebildet.",
+        "Mentale Effekte: Die Konzentration und Reaktionsfähigkeit auf die Sportart steigt.",
+        "Ablauf eines guten Aufwärmens: 1. Allgemeines Aufwärmen (Laufen, Hüpfen, Kreislauf anregen), 2. Spezifisches Aufwärmen (Dehnen, sportartspezifische Bewegungen wie Dribbeln beim Basketball)."
+      ],
+      "flashcards": [
+        {"q": "Warum ist Aufwärmen vor dem Sport wichtig?", "a": "Um Verletzungen (wie Zerrungen) zu vermeiden und den Körper auf Leistung vorzubereiten."},
+        {"q": "Was passiert im Körper beim Aufwärmen?", "a": "Die Muskeln werden besser durchblutet, die Körpertemperatur steigt und die Gelenke werden 'geschmiert'."},
+        {"q": "Aus welchen zwei Teilen besteht ein gutes Aufwärmprogramm oft?", "a": "Aus allgemeinem (Kreislauf) und sportartspezifischem (z.B. Ballgewöhnung) Aufwärmen."}
+      ],
+      "quiz": [
+        {
+          "question": "Was gehört in der Regel zum 'allgemeinen Aufwärmen'?",
+          "choices": ["Taktikbesprechung", "Leichtes Einlaufen (z.B. Joggen, Hopserlauf) zur Erhöhung der Herzfrequenz", "Sofortige Sprints aus dem Stand", "Gewichtheben"],
+          "answerIndex": 1,
+          "explanation": "Zuerst muss das Herz-Kreislauf-System langsam in Schwung kommen."
+        },
+        {
+          "question": "Was ist der Hauptgrund, warum man sich vor dem Fußballspielen mit dem Ball aufwärmt ('spezifisches Aufwärmen')?",
+          "choices": ["Damit der Ball nicht kaputtgeht.", "Um die genauen Muskelgruppen und Bewegungsabläufe auf das Spiel vorzubereiten (z.B. Passen, Schießen).", "Damit man schneller schwitzt.", "Weil es in den Regeln steht."],
+          "answerIndex": 1,
+          "explanation": "Der Körper stellt sich muskulär und nervlich (Koordination) auf die spezielle Belastung ein."
+        },
+        {
+          "question": "Welche Verletzung soll durch richtiges Aufwärmen vor allem verhindert werden?",
+          "choices": ["Knochenbrüche", "Muskelzerrungen und Bänderrisse", "Sonnenbrand", "Karies"],
+          "answerIndex": 1,
+          "explanation": "Kalte, unvorbereitete Muskeln und Bänder sind anfälliger für Risse bei plötzlicher Belastung."
+        }
+      ]
+    },
+    {
+      "id": "spo-002",
+      "title": "Ausdauer vs. Kraft: Die motorischen Grundeigenschaften",
+      "summary": [
+        "Zu den motorischen Grundeigenschaften zählen: Ausdauer, Kraft, Schnelligkeit, Beweglichkeit und Koordination.",
+        "Ausdauer (Kondition): Die Fähigkeit, eine sportliche Belastung lange durchzuhalten und sich danach schnell zu erholen (z. B. Joggen, Schwimmen, Radfahren).",
+        "Kraft: Die Fähigkeit der Muskeln, Widerstände (z.B. Gewichte, den eigenen Körper) zu überwinden oder zu halten (z. B. Liegestütze, Klettern).",
+        "Beide Eigenschaften sind wichtig für die allgemeine Fitness und Gesundheit."
+      ],
+      "flashcards": [
+        {"q": "Nenne zwei der fünf motorischen Grundeigenschaften.", "a": "Ausdauer, Kraft (oder Schnelligkeit, Beweglichkeit, Koordination)."},
+        {"q": "Was trainierst du beim 30-Minuten-Dauerlauf am meisten?", "a": "Die (Grundlagen-)Ausdauer."},
+        {"q": "Welche Eigenschaft brauchst du hauptsächlich für Klimmzüge?", "a": "Kraft."}
+      ],
+      "quiz": [
+        {
+          "question": "Welche Sportart trainiert vor allem die (Herz-Kreislauf-)Ausdauer?",
+          "choices": ["Kugelstoßen", "Schwimmen (lange Strecken)", "Gewichtheben", "Gymnastik"],
+          "answerIndex": 1,
+          "explanation": "Ausdauer zeigt sich in lang andauernden, moderaten Belastungen."
+        },
+        {
+          "question": "Was versteht man unter 'Kraft' im Sport?",
+          "choices": ["Die Fähigkeit, nach dem Sport nicht müde zu sein.", "Die Fähigkeit des Muskels, Spannung gegen einen Widerstand (z.B. das eigene Körpergewicht) aufzubauen.", "Die Fähigkeit, sehr schnell auf ein Signal zu reagieren.", "Die Gelenkigkeit."],
+          "answerIndex": 1,
+          "explanation": "Kraft wird benötigt, um Dinge zu heben, zu werfen oder den eigenen Körper zu stützen."
+        },
+        {
+          "question": "Welche dieser Übungen ist typisch für ein Krafttraining mit dem eigenen Körpergewicht?",
+          "choices": ["Seilspringen", "Joggen", "Liegestütze", "Dehnen"],
+          "answerIndex": 2,
+          "explanation": "Liegestütze trainieren gezielt die Brust-, Schulter- und Armmuskulatur."
+        }
+      ]
+    },
+    {
+      "id": "spo-003",
+      "title": "Fair Play und Regeln im Team",
+      "summary": [
+        "Fair Play bedeutet mehr als nur das Einhalten von Spielregeln. Es ist eine Haltung des Respekts gegenüber Mitspielern, Gegnern und Schiedsrichtern.",
+        "Dazu gehört: Fouls vermeiden, Fehler eingestehen, Schiedsrichterentscheidungen akzeptieren, auch bei Niederlagen Größe zeigen (z.B. Händeschütteln nach dem Spiel).",
+        "Teamgeist: In Mannschaftssportarten (z.B. Fußball, Volleyball) ist das Zusammenwirken aller Spieler entscheidend. 'Gemeinsam gewinnen, gemeinsam verlieren.'",
+        "Regeln sorgen für Sicherheit, Chancengleichheit und einen reibungslosen Ablauf des Spiels."
+      ],
+      "flashcards": [
+        {"q": "Was bedeutet 'Fair Play'?", "a": "Respektvoller Umgang mit Gegnern, Mitspielern und Schiris, sowie das ehrliche Einhalten der Regeln."},
+        {"q": "Warum sind Regeln im Sport so wichtig?", "a": "Sie garantieren Chancengleichheit, Fairness und Sicherheit (Schutz vor Verletzungen)."},
+        {"q": "Was ist ein Zeichen von Fair Play nach einem verlorenen Spiel?", "a": "Dem Gegner zum Sieg zu gratulieren (z.B. durch Händeschütteln)."}
+      ],
+      "quiz": [
+        {
+          "question": "Welches Verhalten ist ein klassisches Beispiel für Fair Play?",
+          "choices": ["Schwalbe (Foul vortäuschen) im Strafraum.", "Den Schiedsrichter anschreien.", "Einen gegnerischen Spieler loben, wenn er eine gute Aktion hatte, und ihm nach einem Sturz aufhelfen.", "Versteckte Fouls begehen."],
+          "answerIndex": 2,
+          "explanation": "Respekt vor der Leistung und der Gesundheit des Gegners ist der Kern des Fair Play."
+        },
+        {
+          "question": "Warum gibt es in fast jeder Sportart einen Schiedsrichter?",
+          "choices": ["Damit jemand die Tore zählt.", "Um die Regeln neutral durchzusetzen und für ein faires, sicheres Spiel zu sorgen.", "Um das Spiel langsamer zu machen.", "Damit die Spieler jemanden zum Meckern haben."],
+          "answerIndex": 1,
+          "explanation": "Der Schiedsrichter sorgt für die Einhaltung der Regeln und schützt die Spieler."
+        },
+        {
+          "question": "Wie sollte man sich in einem Team verhalten, wenn ein Mitspieler einen Fehler macht?",
+          "choices": ["Ihn auslachen.", "Ihn sofort auswechseln lassen.", "Ihn ermutigen und beim nächsten Mal unterstützen ('Kopf hoch').", "Ihn ignorieren."],
+          "answerIndex": 2,
+          "explanation": "Guter Teamgeist zeigt sich darin, dass man sich gegenseitig stärkt, auch nach Fehlern."
+        }
+      ]
+    }
+  ]
+}

@@ -108,5 +108,129 @@
         }
       ]
     }
+    {
+  "id": "math-007",
+  "title": "Winkel und Dreiecke",
+  "summary": [
+    "Winkel werden nach ihrer Größe eingeteilt: spitz (<90°), recht (90°), stumpf (>90°), gestreckt (180°).",
+    "Scheitelwinkel liegen sich gegenüber und sind gleich groß.",
+    "Nebenwinkel liegen nebeneinander und ergeben zusammen 180°.",
+    "Bei parallelen Geraden entstehen Stufenwinkel und Wechselwinkel, die jeweils gleich groß sind.",
+    "Parallele Geraden haben überall den gleichen Abstand und schneiden sich nie.",
+    "Senkrechte Geraden schneiden sich im rechten Winkel (90°).",
+    "Dreiecke können spitzwinklig, rechtwinklig oder stumpfwinklig sein.",
+    "Im gleichschenkligen Dreieck sind zwei Seiten gleich lang und die Basiswinkel gleich groß.",
+    "Im gleichseitigen Dreieck sind alle Seiten gleich lang und alle Winkel 60°.",
+    "Die Winkelsumme im Dreieck beträgt immer 180°.",
+    "Fehlende Winkel können mit Winkelsumme, Nebenwinkeln oder Winkelbeziehungen an parallelen Geraden berechnet werden."
+  ],
+
+  "flashcards": [
+    {"q": "Wie groß ist ein rechter Winkel?", "a": "90°"},
+    {"q": "Wann ist ein Winkel spitz?", "a": "Wenn er kleiner als 90° ist."},
+    {"q": "Was sind Scheitelwinkel?", "a": "Winkel, die sich bei einer Geradenkreuzung gegenüberliegen und gleich groß sind."},
+    {"q": "Was sind Nebenwinkel?", "a": "Zwei Winkel, die nebeneinander liegen und zusammen 180° ergeben."},
+    {"q": "Was sind Stufenwinkel?", "a": "Winkel an parallelen Geraden, die in gleicher Lage liegen und gleich groß sind."},
+    {"q": "Was sind Wechselwinkel?", "a": "Winkel an parallelen Geraden auf unterschiedlichen Seiten der Geraden, die gleich groß sind."},
+    {"q": "Was bedeutet g ∥ h?", "a": "Die Geraden g und h sind parallel."},
+    {"q": "Was bedeutet g ⟂ h?", "a": "Die Geraden stehen senkrecht aufeinander."},
+    {"q": "Wie groß ist die Winkelsumme im Dreieck?", "a": "180°"},
+    {"q": "Welche Eigenschaft hat ein gleichschenkliges Dreieck?", "a": "Zwei Seiten sind gleich lang und die Basiswinkel sind gleich groß."},
+    {"q": "Welche Eigenschaft hat ein gleichseitiges Dreieck?", "a": "Alle Seiten sind gleich lang und alle Winkel sind 60°."}
+  ],
+
+  "quiz": [
+    {
+      "question": "Wie groß ist die Winkelsumme im Dreieck?",
+      "choices": ["90°", "180°", "270°", "360°"],
+      "answerIndex": 1,
+      "explanation": "In jedem Dreieck gilt: α + β + γ = 180°."
+    },
+    {
+      "question": "Welche Winkel sind immer gleich groß?",
+      "choices": ["Nebenwinkel", "Scheitelwinkel", "Gestreckte Winkel", "Ergänzungswinkel"],
+      "answerIndex": 1,
+      "explanation": "Scheitelwinkel liegen sich gegenüber und sind immer gleich groß."
+    },
+    {
+      "question": "Nebenwinkel ergeben zusammen",
+      "choices": ["90°", "120°", "180°", "360°"],
+      "answerIndex": 2,
+      "explanation": "Nebenwinkel liegen an einer Geraden und ergeben deshalb 180°."
+    },
+    {
+      "question": "Ein Winkel misst 110°. Welche Art ist das?",
+      "choices": ["Spitzer Winkel", "Stumpfer Winkel", "Rechter Winkel", "Gestreckter Winkel"],
+      "answerIndex": 1,
+      "explanation": "Ein stumpfer Winkel ist größer als 90° und kleiner als 180°."
+    },
+    {
+      "question": "Welche Winkel entstehen an parallelen Geraden?",
+      "choices": ["Stufenwinkel", "Wechselwinkel", "Scheitelwinkel", "Nebenwinkel"],
+      "answerIndex": 0,
+      "explanation": "Stufenwinkel entstehen an parallelen Geraden und sind gleich groß."
+    },
+    {
+      "question": "Welche Aussage stimmt?",
+      "choices": ["Parallele Geraden schneiden sich", "Parallele Geraden haben überall gleichen Abstand", "Parallele Geraden bilden immer 90°", "Parallele Geraden sind immer gleich lang"],
+      "answerIndex": 1,
+      "explanation": "Parallele Geraden verlaufen immer mit konstantem Abstand."
+    },
+    {
+      "question": "Ein Dreieck hat die Winkel 60°, 60° und 60°. Wie heißt es?",
+      "choices": ["Rechtwinklig", "Gleichseitig", "Stumpfwinklig", "Spitzwinklig"],
+      "answerIndex": 1,
+      "explanation": "Im gleichseitigen Dreieck sind alle Winkel 60°."
+    },
+    {
+      "question": "α = 70°, β = 50°. Wie groß ist γ?",
+      "choices": ["60°", "70°", "80°", "90°"],
+      "answerIndex": 0,
+      "explanation": "γ = 180° − 70° − 50° = 60°."
+    },
+    {
+      "question": "Ein Dreieck hat einen Winkel von 90°. Wie nennt man es?",
+      "choices": ["Spitzwinklig", "Stumpfwinklig", "Rechtwinklig", "Gleichseitig"],
+      "answerIndex": 2,
+      "explanation": "Ein Dreieck mit einem 90° Winkel ist rechtwinklig."
+    },
+    {
+      "question": "α = 35°, β = 65°. Wie groß ist γ?",
+      "choices": ["70°", "80°", "90°", "100°"],
+      "answerIndex": 1,
+      "explanation": "γ = 180° − 35° − 65° = 80°."
+    },
+    {
+      "question": "Ein Dreieck hat die Winkel 40°, 60° und 80°. Welche Art ist es?",
+      "choices": ["Spitzwinklig", "Rechtwinklig", "Stumpfwinklig", "Gleichseitig"],
+      "answerIndex": 0,
+      "explanation": "Alle Winkel sind kleiner als 90°, daher ist das Dreieck spitzwinklig."
+    },
+    {
+      "question": "α = 90°, β = 30°. Wie groß ist γ?",
+      "choices": ["45°", "60°", "75°", "90°"],
+      "answerIndex": 1,
+      "explanation": "γ = 180° − 90° − 30° = 60°."
+    },
+    {
+      "question": "Welche Eigenschaft hat ein gleichschenkliges Dreieck?",
+      "choices": ["Alle Seiten gleich lang", "Zwei Seiten gleich lang", "Ein Winkel 90°", "Alle Winkel verschieden"],
+      "answerIndex": 1,
+      "explanation": "Im gleichschenkligen Dreieck sind zwei Seiten gleich lang."
+    },
+    {
+      "question": "Ein Winkel beträgt 45°. Welche Art ist das?",
+      "choices": ["Spitzer Winkel", "Stumpfer Winkel", "Rechter Winkel", "Gestreckter Winkel"],
+      "answerIndex": 0,
+      "explanation": "Ein Winkel kleiner als 90° ist spitz."
+    },
+    {
+      "question": "Was gilt für Wechselwinkel?",
+      "choices": ["Sie sind immer 90°", "Sie sind gleich groß", "Sie ergeben 180°", "Sie sind immer spitz"],
+      "answerIndex": 1,
+      "explanation": "Wechselwinkel an parallelen Geraden sind gleich groß."
+    }
+  ]
+}
   ]
 }

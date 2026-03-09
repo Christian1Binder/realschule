@@ -13,26 +13,50 @@
         "Erweitern: Zähler und Nenner mit derselben Zahl multiplizieren. Der Wert bleibt gleich."
       ],
       "flashcards": [
-        {"q": "Was bedeutet 'kürzen' bei Brüchen?", "a": "Zähler und Nenner durch dieselbe Zahl teilen."},
-        {"q": "Wann sind zwei Brüche gleichwertig?", "a": "Wenn sie durch Erweitern oder Kürzen ineinander überführbar sind."},
-        {"q": "Was ist der Hauptnenner?", "a": "Das kleinste gemeinsame Vielfache (kgV) der Nenner zweier oder mehrerer Brüche."}
+        {
+          "q": "Was bedeutet 'kürzen' bei Brüchen?",
+          "a": "Zähler und Nenner durch dieselbe Zahl teilen."
+        },
+        {
+          "q": "Wann sind zwei Brüche gleichwertig?",
+          "a": "Wenn sie durch Erweitern oder Kürzen ineinander überführbar sind."
+        },
+        {
+          "q": "Was ist der Hauptnenner?",
+          "a": "Das kleinste gemeinsame Vielfache (kgV) der Nenner zweier oder mehrerer Brüche."
+        }
       ],
       "quiz": [
         {
           "question": "Wie kürzt man 6/12 vollständig?",
-          "choices": ["1/3", "1/2", "3/6", "2/3"],
+          "choices": [
+            "1/3",
+            "1/2",
+            "3/6",
+            "2/3"
+          ],
           "answerIndex": 1,
           "explanation": "Beide durch 6 teilen ergibt 1/2."
         },
         {
           "question": "Womit wurde 2/5 erweitert, um 8/20 zu erhalten?",
-          "choices": ["Mit 2", "Mit 3", "Mit 4", "Mit 5"],
+          "choices": [
+            "Mit 2",
+            "Mit 3",
+            "Mit 4",
+            "Mit 5"
+          ],
           "answerIndex": 2,
           "explanation": "2 * 4 = 8 und 5 * 4 = 20."
         },
         {
           "question": "Ist 3/4 gleichwertig zu 9/12?",
-          "choices": ["Ja", "Nein", "Nur manchmal", "Weiß nicht"],
+          "choices": [
+            "Ja",
+            "Nein",
+            "Nur manchmal",
+            "Weiß nicht"
+          ],
           "answerIndex": 0,
           "explanation": "Ja, 3/4 mit 3 erweitert ergibt 9/12."
         }
@@ -48,26 +72,50 @@
         "Prozentsatz (p%): Der Anteil in Prozent."
       ],
       "flashcards": [
-        {"q": "Wofür steht 'Prozent'?", "a": "Für 'von Hundert' (1/100)."},
-        {"q": "Was ist der Grundwert?", "a": "Das Ganze, also 100%."},
-        {"q": "Wie berechnet man den Prozentwert?", "a": "W = (G * p) / 100"}
+        {
+          "q": "Wofür steht 'Prozent'?",
+          "a": "Für 'von Hundert' (1/100)."
+        },
+        {
+          "q": "Was ist der Grundwert?",
+          "a": "Das Ganze, also 100%."
+        },
+        {
+          "q": "Wie berechnet man den Prozentwert?",
+          "a": "W = (G * p) / 100"
+        }
       ],
       "quiz": [
         {
           "question": "Was sind 50% von 200€?",
-          "choices": ["50€", "100€", "150€", "200€"],
+          "choices": [
+            "50€",
+            "100€",
+            "150€",
+            "200€"
+          ],
           "answerIndex": 1,
           "explanation": "50% ist die Hälfte, also 100€."
         },
         {
           "question": "Welche Größe entspricht 100%?",
-          "choices": ["Prozentsatz", "Prozentwert", "Grundwert", "Nenner"],
+          "choices": [
+            "Prozentsatz",
+            "Prozentwert",
+            "Grundwert",
+            "Nenner"
+          ],
           "answerIndex": 2,
           "explanation": "Der Grundwert ist immer das Ganze (100%)."
         },
         {
           "question": "Wie schreibt man 25% als Bruch?",
-          "choices": ["1/2", "1/4", "1/5", "1/10"],
+          "choices": [
+            "1/2",
+            "1/4",
+            "1/5",
+            "1/10"
+          ],
           "answerIndex": 1,
           "explanation": "25/100 gekürzt mit 25 ergibt 1/4."
         }
@@ -83,154 +131,949 @@
         "Probe: Lösung in die Ursprungsgleichung einsetzen."
       ],
       "flashcards": [
-        {"q": "Was ist das Ziel beim Lösen einer Gleichung?", "a": "Die Variable (z.B. x) zu isolieren."},
-        {"q": "Was bedeutet Äquivalenzumformung?", "a": "Auf beiden Seiten des Gleichheitszeichens dieselbe Rechenoperation durchführen."},
-        {"q": "Wie überprüft man das Ergebnis?", "a": "Mit der Probe (Einsetzen der Lösung in die Gleichung)."}
+        {
+          "q": "Was ist das Ziel beim Lösen einer Gleichung?",
+          "a": "Die Variable (z.B. x) zu isolieren."
+        },
+        {
+          "q": "Was bedeutet Äquivalenzumformung?",
+          "a": "Auf beiden Seiten des Gleichheitszeichens dieselbe Rechenoperation durchführen."
+        },
+        {
+          "q": "Wie überprüft man das Ergebnis?",
+          "a": "Mit der Probe (Einsetzen der Lösung in die Gleichung)."
+        }
       ],
       "quiz": [
         {
           "question": "Löse: x + 5 = 12",
-          "choices": ["x = 5", "x = 7", "x = 12", "x = 17"],
+          "choices": [
+            "x = 5",
+            "x = 7",
+            "x = 12",
+            "x = 17"
+          ],
           "answerIndex": 1,
           "explanation": "Auf beiden Seiten -5 rechnen: x = 7."
         },
         {
           "question": "Löse: 3x = 15",
-          "choices": ["x = 3", "x = 5", "x = 12", "x = 45"],
+          "choices": [
+            "x = 3",
+            "x = 5",
+            "x = 12",
+            "x = 45"
+          ],
           "answerIndex": 1,
           "explanation": "Auf beiden Seiten durch 3 teilen: x = 5."
         },
         {
           "question": "Welcher Schritt ist sinnvoll bei: 2x - 4 = 10?",
-          "choices": ["+4 auf beiden Seiten", "-4 auf beiden Seiten", "/2 auf beiden Seiten", "*2 auf beiden Seiten"],
+          "choices": [
+            "+4 auf beiden Seiten",
+            "-4 auf beiden Seiten",
+            "/2 auf beiden Seiten",
+            "*2 auf beiden Seiten"
+          ],
           "answerIndex": 0,
           "explanation": "Zuerst die Zahl ohne x auf die andere Seite bringen, also +4."
         }
       ]
     },
     {
-  "id": "math-004",
-  "title": "Winkel und Dreiecke",
-  "summary": [
-    "Winkel werden nach ihrer Größe eingeteilt: spitz (<90°), recht (90°), stumpf (>90°), gestreckt (180°).",
-    "Scheitelwinkel liegen sich gegenüber und sind gleich groß.",
-    "Nebenwinkel liegen nebeneinander und ergeben zusammen 180°.",
-    "Bei parallelen Geraden entstehen Stufenwinkel und Wechselwinkel, die jeweils gleich groß sind.",
-    "Parallele Geraden haben überall den gleichen Abstand und schneiden sich nie.",
-    "Senkrechte Geraden schneiden sich im rechten Winkel (90°).",
-    "Dreiecke können spitzwinklig, rechtwinklig oder stumpfwinklig sein.",
-    "Im gleichschenkligen Dreieck sind zwei Seiten gleich lang und die Basiswinkel gleich groß.",
-    "Im gleichseitigen Dreieck sind alle Seiten gleich lang und alle Winkel 60°.",
-    "Die Winkelsumme im Dreieck beträgt immer 180°.",
-    "Fehlende Winkel können mit Winkelsumme, Nebenwinkeln oder Winkelbeziehungen an parallelen Geraden berechnet werden."
-  ],
-
-  "flashcards": [
-    {"q": "Wie groß ist ein rechter Winkel?", "a": "90°"},
-    {"q": "Wann ist ein Winkel spitz?", "a": "Wenn er kleiner als 90° ist."},
-    {"q": "Was sind Scheitelwinkel?", "a": "Winkel, die sich bei einer Geradenkreuzung gegenüberliegen und gleich groß sind."},
-    {"q": "Was sind Nebenwinkel?", "a": "Zwei Winkel, die nebeneinander liegen und zusammen 180° ergeben."},
-    {"q": "Was sind Stufenwinkel?", "a": "Winkel an parallelen Geraden, die in gleicher Lage liegen und gleich groß sind."},
-    {"q": "Was sind Wechselwinkel?", "a": "Winkel an parallelen Geraden auf unterschiedlichen Seiten der Geraden, die gleich groß sind."},
-    {"q": "Was bedeutet g ∥ h?", "a": "Die Geraden g und h sind parallel."},
-    {"q": "Was bedeutet g ⟂ h?", "a": "Die Geraden stehen senkrecht aufeinander."},
-    {"q": "Wie groß ist die Winkelsumme im Dreieck?", "a": "180°"},
-    {"q": "Welche Eigenschaft hat ein gleichschenkliges Dreieck?", "a": "Zwei Seiten sind gleich lang und die Basiswinkel sind gleich groß."},
-    {"q": "Welche Eigenschaft hat ein gleichseitiges Dreieck?", "a": "Alle Seiten sind gleich lang und alle Winkel sind 60°."}
-  ],
-
-  "quiz": [
-    {
-      "question": "Wie groß ist die Winkelsumme im Dreieck?",
-      "choices": ["90°", "180°", "270°", "360°"],
-      "answerIndex": 1,
-      "explanation": "In jedem Dreieck gilt: α + β + γ = 180°."
+      "id": "math-004",
+      "title": "Winkel und Dreiecke",
+      "summary": [
+        "Winkel werden nach ihrer Größe eingeteilt: spitz (<90°), recht (90°), stumpf (>90°), gestreckt (180°).",
+        "Scheitelwinkel liegen sich gegenüber und sind gleich groß.",
+        "Nebenwinkel liegen nebeneinander und ergeben zusammen 180°.",
+        "Bei parallelen Geraden entstehen Stufenwinkel und Wechselwinkel, die jeweils gleich groß sind.",
+        "Parallele Geraden haben überall den gleichen Abstand und schneiden sich nie.",
+        "Senkrechte Geraden schneiden sich im rechten Winkel (90°).",
+        "Dreiecke können spitzwinklig, rechtwinklig oder stumpfwinklig sein.",
+        "Im gleichschenkligen Dreieck sind zwei Seiten gleich lang und die Basiswinkel gleich groß.",
+        "Im gleichseitigen Dreieck sind alle Seiten gleich lang und alle Winkel 60°.",
+        "Die Winkelsumme im Dreieck beträgt immer 180°.",
+        "Fehlende Winkel können mit Winkelsumme, Nebenwinkeln oder Winkelbeziehungen an parallelen Geraden berechnet werden."
+      ],
+      "flashcards": [
+        {
+          "q": "Wie groß ist ein rechter Winkel?",
+          "a": "90°"
+        },
+        {
+          "q": "Wann ist ein Winkel spitz?",
+          "a": "Wenn er kleiner als 90° ist."
+        },
+        {
+          "q": "Was sind Scheitelwinkel?",
+          "a": "Winkel, die sich bei einer Geradenkreuzung gegenüberliegen und gleich groß sind."
+        },
+        {
+          "q": "Was sind Nebenwinkel?",
+          "a": "Zwei Winkel, die nebeneinander liegen und zusammen 180° ergeben."
+        },
+        {
+          "q": "Was sind Stufenwinkel?",
+          "a": "Winkel an parallelen Geraden, die in gleicher Lage liegen und gleich groß sind."
+        },
+        {
+          "q": "Was sind Wechselwinkel?",
+          "a": "Winkel an parallelen Geraden auf unterschiedlichen Seiten der Geraden, die gleich groß sind."
+        },
+        {
+          "q": "Was bedeutet g ∥ h?",
+          "a": "Die Geraden g und h sind parallel."
+        },
+        {
+          "q": "Was bedeutet g ⟂ h?",
+          "a": "Die Geraden stehen senkrecht aufeinander."
+        },
+        {
+          "q": "Wie groß ist die Winkelsumme im Dreieck?",
+          "a": "180°"
+        },
+        {
+          "q": "Welche Eigenschaft hat ein gleichschenkliges Dreieck?",
+          "a": "Zwei Seiten sind gleich lang und die Basiswinkel sind gleich groß."
+        },
+        {
+          "q": "Welche Eigenschaft hat ein gleichseitiges Dreieck?",
+          "a": "Alle Seiten sind gleich lang und alle Winkel sind 60°."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Wie groß ist die Winkelsumme im Dreieck?",
+          "choices": [
+            "90°",
+            "180°",
+            "270°",
+            "360°"
+          ],
+          "answerIndex": 1,
+          "explanation": "In jedem Dreieck gilt: α + β + γ = 180°."
+        },
+        {
+          "question": "Welche Winkel sind immer gleich groß?",
+          "choices": [
+            "Nebenwinkel",
+            "Scheitelwinkel",
+            "Gestreckte Winkel",
+            "Ergänzungswinkel"
+          ],
+          "answerIndex": 1,
+          "explanation": "Scheitelwinkel liegen sich gegenüber und sind immer gleich groß."
+        },
+        {
+          "question": "Nebenwinkel ergeben zusammen",
+          "choices": [
+            "90°",
+            "120°",
+            "180°",
+            "360°"
+          ],
+          "answerIndex": 2,
+          "explanation": "Nebenwinkel liegen an einer Geraden und ergeben deshalb 180°."
+        },
+        {
+          "question": "Ein Winkel misst 110°. Welche Art ist das?",
+          "choices": [
+            "Spitzer Winkel",
+            "Stumpfer Winkel",
+            "Rechter Winkel",
+            "Gestreckter Winkel"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ein stumpfer Winkel ist größer als 90° und kleiner als 180°."
+        },
+        {
+          "question": "Welche Winkel entstehen an parallelen Geraden?",
+          "choices": [
+            "Stufenwinkel",
+            "Wechselwinkel",
+            "Scheitelwinkel",
+            "Nebenwinkel"
+          ],
+          "answerIndex": 0,
+          "explanation": "Stufenwinkel entstehen an parallelen Geraden und sind gleich groß."
+        },
+        {
+          "question": "Welche Aussage stimmt?",
+          "choices": [
+            "Parallele Geraden schneiden sich",
+            "Parallele Geraden haben überall gleichen Abstand",
+            "Parallele Geraden bilden immer 90°",
+            "Parallele Geraden sind immer gleich lang"
+          ],
+          "answerIndex": 1,
+          "explanation": "Parallele Geraden verlaufen immer mit konstantem Abstand."
+        },
+        {
+          "question": "Ein Dreieck hat die Winkel 60°, 60° und 60°. Wie heißt es?",
+          "choices": [
+            "Rechtwinklig",
+            "Gleichseitig",
+            "Stumpfwinklig",
+            "Spitzwinklig"
+          ],
+          "answerIndex": 1,
+          "explanation": "Im gleichseitigen Dreieck sind alle Winkel 60°."
+        },
+        {
+          "question": "α = 70°, β = 50°. Wie groß ist γ?",
+          "choices": [
+            "60°",
+            "70°",
+            "80°",
+            "90°"
+          ],
+          "answerIndex": 0,
+          "explanation": "γ = 180° − 70° − 50° = 60°."
+        },
+        {
+          "question": "Ein Dreieck hat einen Winkel von 90°. Wie nennt man es?",
+          "choices": [
+            "Spitzwinklig",
+            "Stumpfwinklig",
+            "Rechtwinklig",
+            "Gleichseitig"
+          ],
+          "answerIndex": 2,
+          "explanation": "Ein Dreieck mit einem 90° Winkel ist rechtwinklig."
+        },
+        {
+          "question": "α = 35°, β = 65°. Wie groß ist γ?",
+          "choices": [
+            "70°",
+            "80°",
+            "90°",
+            "100°"
+          ],
+          "answerIndex": 1,
+          "explanation": "γ = 180° − 35° − 65° = 80°."
+        },
+        {
+          "question": "Ein Dreieck hat die Winkel 40°, 60° und 80°. Welche Art ist es?",
+          "choices": [
+            "Spitzwinklig",
+            "Rechtwinklig",
+            "Stumpfwinklig",
+            "Gleichseitig"
+          ],
+          "answerIndex": 0,
+          "explanation": "Alle Winkel sind kleiner als 90°, daher ist das Dreieck spitzwinklig."
+        },
+        {
+          "question": "α = 90°, β = 30°. Wie groß ist γ?",
+          "choices": [
+            "45°",
+            "60°",
+            "75°",
+            "90°"
+          ],
+          "answerIndex": 1,
+          "explanation": "γ = 180° − 90° − 30° = 60°."
+        },
+        {
+          "question": "Welche Eigenschaft hat ein gleichschenkliges Dreieck?",
+          "choices": [
+            "Alle Seiten gleich lang",
+            "Zwei Seiten gleich lang",
+            "Ein Winkel 90°",
+            "Alle Winkel verschieden"
+          ],
+          "answerIndex": 1,
+          "explanation": "Im gleichschenkligen Dreieck sind zwei Seiten gleich lang."
+        },
+        {
+          "question": "Ein Winkel beträgt 45°. Welche Art ist das?",
+          "choices": [
+            "Spitzer Winkel",
+            "Stumpfer Winkel",
+            "Rechter Winkel",
+            "Gestreckter Winkel"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ein Winkel kleiner als 90° ist spitz."
+        },
+        {
+          "question": "Was gilt für Wechselwinkel?",
+          "choices": [
+            "Sie sind immer 90°",
+            "Sie sind gleich groß",
+            "Sie ergeben 180°",
+            "Sie sind immer spitz"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wechselwinkel an parallelen Geraden sind gleich groß."
+        }
+      ]
     },
     {
-      "question": "Welche Winkel sind immer gleich groß?",
-      "choices": ["Nebenwinkel", "Scheitelwinkel", "Gestreckte Winkel", "Ergänzungswinkel"],
-      "answerIndex": 1,
-      "explanation": "Scheitelwinkel liegen sich gegenüber und sind immer gleich groß."
-    },
-    {
-      "question": "Nebenwinkel ergeben zusammen",
-      "choices": ["90°", "120°", "180°", "360°"],
-      "answerIndex": 2,
-      "explanation": "Nebenwinkel liegen an einer Geraden und ergeben deshalb 180°."
-    },
-    {
-      "question": "Ein Winkel misst 110°. Welche Art ist das?",
-      "choices": ["Spitzer Winkel", "Stumpfer Winkel", "Rechter Winkel", "Gestreckter Winkel"],
-      "answerIndex": 1,
-      "explanation": "Ein stumpfer Winkel ist größer als 90° und kleiner als 180°."
-    },
-    {
-      "question": "Welche Winkel entstehen an parallelen Geraden?",
-      "choices": ["Stufenwinkel", "Wechselwinkel", "Scheitelwinkel", "Nebenwinkel"],
-      "answerIndex": 0,
-      "explanation": "Stufenwinkel entstehen an parallelen Geraden und sind gleich groß."
-    },
-    {
-      "question": "Welche Aussage stimmt?",
-      "choices": ["Parallele Geraden schneiden sich", "Parallele Geraden haben überall gleichen Abstand", "Parallele Geraden bilden immer 90°", "Parallele Geraden sind immer gleich lang"],
-      "answerIndex": 1,
-      "explanation": "Parallele Geraden verlaufen immer mit konstantem Abstand."
-    },
-    {
-      "question": "Ein Dreieck hat die Winkel 60°, 60° und 60°. Wie heißt es?",
-      "choices": ["Rechtwinklig", "Gleichseitig", "Stumpfwinklig", "Spitzwinklig"],
-      "answerIndex": 1,
-      "explanation": "Im gleichseitigen Dreieck sind alle Winkel 60°."
-    },
-    {
-      "question": "α = 70°, β = 50°. Wie groß ist γ?",
-      "choices": ["60°", "70°", "80°", "90°"],
-      "answerIndex": 0,
-      "explanation": "γ = 180° − 70° − 50° = 60°."
-    },
-    {
-      "question": "Ein Dreieck hat einen Winkel von 90°. Wie nennt man es?",
-      "choices": ["Spitzwinklig", "Stumpfwinklig", "Rechtwinklig", "Gleichseitig"],
-      "answerIndex": 2,
-      "explanation": "Ein Dreieck mit einem 90° Winkel ist rechtwinklig."
-    },
-    {
-      "question": "α = 35°, β = 65°. Wie groß ist γ?",
-      "choices": ["70°", "80°", "90°", "100°"],
-      "answerIndex": 1,
-      "explanation": "γ = 180° − 35° − 65° = 80°."
-    },
-    {
-      "question": "Ein Dreieck hat die Winkel 40°, 60° und 80°. Welche Art ist es?",
-      "choices": ["Spitzwinklig", "Rechtwinklig", "Stumpfwinklig", "Gleichseitig"],
-      "answerIndex": 0,
-      "explanation": "Alle Winkel sind kleiner als 90°, daher ist das Dreieck spitzwinklig."
-    },
-    {
-      "question": "α = 90°, β = 30°. Wie groß ist γ?",
-      "choices": ["45°", "60°", "75°", "90°"],
-      "answerIndex": 1,
-      "explanation": "γ = 180° − 90° − 30° = 60°."
-    },
-    {
-      "question": "Welche Eigenschaft hat ein gleichschenkliges Dreieck?",
-      "choices": ["Alle Seiten gleich lang", "Zwei Seiten gleich lang", "Ein Winkel 90°", "Alle Winkel verschieden"],
-      "answerIndex": 1,
-      "explanation": "Im gleichschenkligen Dreieck sind zwei Seiten gleich lang."
-    },
-    {
-      "question": "Ein Winkel beträgt 45°. Welche Art ist das?",
-      "choices": ["Spitzer Winkel", "Stumpfer Winkel", "Rechter Winkel", "Gestreckter Winkel"],
-      "answerIndex": 0,
-      "explanation": "Ein Winkel kleiner als 90° ist spitz."
-    },
-    {
-      "question": "Was gilt für Wechselwinkel?",
-      "choices": ["Sie sind immer 90°", "Sie sind gleich groß", "Sie ergeben 180°", "Sie sind immer spitz"],
-      "answerIndex": 1,
-      "explanation": "Wechselwinkel an parallelen Geraden sind gleich groß."
+      "id": "math-schulaufgabe-3",
+      "title": "Schulaufgabe 3 - Zusammenfassung (Winkel & Dreiecke)",
+      "summary": [
+        "<b>1. Winkelarten</b>: Einteilung nach Größe.",
+        "• Nullwinkel: Größe: 0°",
+        "• Spitzer Winkel: 0° < α < 90° <svg width=\"60\" height=\"40\" viewBox=\"0 0 100 60\" style=\"vertical-align: middle; margin: 0 5px;\"><path d=\"M 20 50 L 50 50 L 70 20\" stroke=\"black\" stroke-width=\"3\" fill=\"none\" /><path d=\"M 35 50 A 15 15 0 0 0 42 38\" stroke=\"red\" stroke-width=\"2\" fill=\"none\" /></svg>",
+        "• Rechter Winkel: α = 90° <svg width=\"60\" height=\"40\" viewBox=\"0 0 100 60\" style=\"vertical-align: middle; margin: 0 5px;\"><path d=\"M 20 50 L 50 50 L 50 10\" stroke=\"black\" stroke-width=\"3\" fill=\"none\" /><path d=\"M 40 50 L 40 40 L 50 40\" stroke=\"red\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"45\" cy=\"45\" r=\"1.5\" fill=\"red\" /></svg>",
+        "• Stumpfer Winkel: 90° < α < 180° <svg width=\"60\" height=\"40\" viewBox=\"0 0 100 60\" style=\"vertical-align: middle; margin: 0 5px;\"><path d=\"M 20 50 L 50 50 L 20 15\" stroke=\"black\" stroke-width=\"3\" fill=\"none\" /><path d=\"M 35 50 A 15 15 0 0 1 35 32\" stroke=\"red\" stroke-width=\"2\" fill=\"none\" /></svg>",
+        "• Gestreckter Winkel: α = 180° <svg width=\"60\" height=\"40\" viewBox=\"0 0 100 60\" style=\"vertical-align: middle; margin: 0 5px;\"><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\" stroke=\"black\" stroke-width=\"3\" /><path d=\"M 35 50 A 15 15 0 0 1 65 50\" stroke=\"red\" stroke-width=\"2\" fill=\"none\" /><circle cx=\"50\" cy=\"50\" r=\"2\" fill=\"black\" /></svg>",
+        "• Überstumpfer Winkel: 180° < α < 360°",
+        "• Voller Winkel: α = 360° <svg width=\"60\" height=\"40\" viewBox=\"0 0 100 60\" style=\"vertical-align: middle; margin: 0 5px;\"><line x1=\"10\" y1=\"50\" x2=\"90\" y2=\"50\" stroke=\"black\" stroke-width=\"3\" /><circle cx=\"50\" cy=\"50\" r=\"10\" stroke=\"red\" stroke-width=\"2\" fill=\"none\" /></svg>",
+        "<br><b>2. Winkel an einer Geradenkreuzung</b>: Wenn sich zwei Geraden schneiden, entstehen vier Winkel.",
+        "• Scheitelwinkel: liegen sich gegenüber, sind immer gleich groß.",
+        "• Nebenwinkel: liegen nebeneinander, ergeben zusammen 180°.",
+        "<br><b>3. Winkel an parallelen Geraden</b>: Wenn zwei parallele Geraden von einer weiteren geschnitten werden.",
+        "• Stufenwinkel (F-Winkel): liegen auf derselben Seite der schneidenden Geraden, in gleicher Lage, sind gleich groß.",
+        "• Wechselwinkel (Z-Winkel): liegen auf verschiedenen Seiten der schneidenden Geraden, sind gleich groß.",
+        "• Ergänzungswinkel (E-Winkel): zwei Winkel bilden zusammen eine Gerade, Summe = 180°.",
+        "<br><b>4. Parallele und senkrechte Geraden</b>:",
+        "• Senkrechte Geraden: schneiden sich im rechten Winkel (g ⟂ s).",
+        "• Parallele Geraden: verlaufen immer im gleichen Abstand, schneiden sich nie (g ∥ h).",
+        "<br><b>5. Abstand paralleler Geraden</b>: Der Abstand zweier paralleler Geraden ist überall gleich groß. Darstellung: d(g,h) = ... cm.",
+        "<br><b>6. Dreiecke – Arten</b>: Unterscheidung nach Innenwinkeln.",
+        "• Spitzwinkliges Dreieck: alle Winkel < 90°.",
+        "• Rechtwinkliges Dreieck: ein Winkel = 90°.",
+        "• Stumpfwinkliges Dreieck: ein Winkel > 90°.",
+        "<br><b>7. Besondere Dreiecke</b>:",
+        "• Gleichschenkliges Dreieck: zwei Seiten gleich lang (Schenkel), gegenüberliegende Winkel gleich groß, dritte Seite = Basis.",
+        "• Gleichseitiges Dreieck: alle drei Seiten gleich lang, alle Winkel gleich groß (60°).",
+        "<br><b>8. Winkelsumme im Dreieck</b>: Die Summe aller Innenwinkel eines Dreiecks beträgt immer: α + β + γ = 180°.",
+        "<br><b>9. Winkelberechnungen mit parallelen Geraden</b>: In Aufgaben werden Scheitel-, Neben-, Stufen-, Wechselwinkel und die Winkelsumme kombiniert, um unbekannte Winkel Schritt für Schritt zu bestimmen.",
+        "<br><b>10. Flächeninhalt im Koordinatensystem (Dreieck)</b>: Flächeninhalt eines Dreiecks mit Vektoren berechnen: A = 0.5 * |Determinante|.",
+        "Beispiel: Vektoren AB und AC berechnen. Determinante bilden: A = 0.5 * |ax*by - bx*ay|.",
+        "<br><b>11. Flächeninhalt von Vierecken</b>: Ein Viereck wird häufig in zwei Dreiecke zerlegt (A_ABCD = A_ABC + A_ACD) und separat berechnet.",
+        "<br><b>12. Flächeninhalt eines Parallelogramms</b>: Mit Vektoren und Determinanten: A = |Determinante(AB, AD)|.",
+        "<br><b>13. Typische Aufgabentypen</b>: Winkel berechnen (Scheitel, Neben, Stufen, Wechsel, Parallelen), Dreiecksaufgaben (Winkel berechnen, Art bestimmen), Gemischte Aufgaben und Koordinatenaufgaben (Punkte einzeichnen, Flächen berechnen)."
+      ],
+      "flashcards": [
+        {
+          "q": "Was ist ein spitzer Winkel?",
+          "a": "Ein Winkel zwischen 0° und 90° (0° < α < 90°)."
+        },
+        {
+          "q": "Was ist ein rechter Winkel?",
+          "a": "Ein Winkel von genau 90° (α = 90°)."
+        },
+        {
+          "q": "Was ist ein stumpfer Winkel?",
+          "a": "Ein Winkel zwischen 90° und 180° (90° < α < 180°)."
+        },
+        {
+          "q": "Was ist ein gestreckter Winkel?",
+          "a": "Ein Winkel von genau 180° (α = 180°)."
+        },
+        {
+          "q": "Was ist ein überstumpfer Winkel?",
+          "a": "Ein Winkel zwischen 180° und 360° (180° < α < 360°)."
+        },
+        {
+          "q": "Was ist ein voller Winkel?",
+          "a": "Ein Winkel von genau 360° (α = 360°)."
+        },
+        {
+          "q": "Was sind Scheitelwinkel?",
+          "a": "Winkel, die sich an einer Geradenkreuzung gegenüberliegen. Sie sind immer gleich groß."
+        },
+        {
+          "q": "Was sind Nebenwinkel?",
+          "a": "Winkel, die nebeneinander liegen und zusammen 180° (eine Gerade) ergeben."
+        },
+        {
+          "q": "Was sind Stufenwinkel (F-Winkel)?",
+          "a": "Winkel an parallelen Geraden auf derselben Seite der Schneidenden. Sie sind gleich groß."
+        },
+        {
+          "q": "Was sind Wechselwinkel (Z-Winkel)?",
+          "a": "Winkel an parallelen Geraden auf verschiedenen Seiten. Sie sind gleich groß."
+        },
+        {
+          "q": "Wie lautet die Schreibweise für senkrechte Geraden?",
+          "a": "g ⟂ h"
+        },
+        {
+          "q": "Wie lautet die Schreibweise für parallele Geraden?",
+          "a": "g ∥ h"
+        },
+        {
+          "q": "Was ist ein gleichschenkliges Dreieck?",
+          "a": "Ein Dreieck mit zwei gleich langen Seiten (Schenkel) und zwei gleich großen Basiswinkeln."
+        },
+        {
+          "q": "Was ist ein gleichseitiges Dreieck?",
+          "a": "Ein Dreieck, bei dem alle 3 Seiten gleich lang und alle 3 Winkel gleich groß (60°) sind."
+        },
+        {
+          "q": "Wie groß ist die Winkelsumme in jedem Dreieck?",
+          "a": "Immer 180° (α + β + γ = 180°)."
+        },
+        {
+          "q": "Wie lautet die Vektor-Formel für den Flächeninhalt eines Dreiecks im Koordinatensystem?",
+          "a": "A = 0.5 * |Determinante|"
+        },
+        {
+          "q": "Wie berechnet man den Flächeninhalt eines beliebigen Vierecks?",
+          "a": "Man zerlegt es in zwei Dreiecke und addiert deren Flächeninhalte."
+        },
+        {
+          "q": "Wie lautet die Formel für den Flächeninhalt eines Parallelogramms mit Vektoren?",
+          "a": "A = |Determinante| (ohne 0.5)"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Ein Winkel hat 89°. Welche Winkelart ist das?",
+          "choices": [
+            "Spitzer Winkel",
+            "Rechter Winkel",
+            "Stumpfer Winkel",
+            "Gestreckter Winkel"
+          ],
+          "answerIndex": 0,
+          "explanation": "Winkel unter 90° sind spitz."
+        },
+        {
+          "question": "Ein Winkel hat genau 90°. Wie nennt man ihn?",
+          "choices": [
+            "Nullwinkel",
+            "Spitzer Winkel",
+            "Rechter Winkel",
+            "Stumpfer Winkel"
+          ],
+          "answerIndex": 2,
+          "explanation": "Genau 90° nennt man rechten Winkel."
+        },
+        {
+          "question": "Ein Winkel hat 120°. Welche Winkelart ist das?",
+          "choices": [
+            "Spitzer Winkel",
+            "Rechter Winkel",
+            "Stumpfer Winkel",
+            "Überstumpfer Winkel"
+          ],
+          "answerIndex": 2,
+          "explanation": "Winkel zwischen 90° und 180° sind stumpf."
+        },
+        {
+          "question": "Welche Gradzahl hat ein gestreckter Winkel?",
+          "choices": [
+            "90°",
+            "180°",
+            "270°",
+            "360°"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ein gestreckter Winkel bildet eine gerade Linie, also 180°."
+        },
+        {
+          "question": "Ein Winkel hat 250°. Wie wird er genannt?",
+          "choices": [
+            "Stumpfer Winkel",
+            "Gestreckter Winkel",
+            "Überstumpfer Winkel",
+            "Voller Winkel"
+          ],
+          "answerIndex": 2,
+          "explanation": "Winkel über 180° und unter 360° sind überstumpf."
+        },
+        {
+          "question": "Wie viel Grad hat ein voller Winkel?",
+          "choices": [
+            "0°",
+            "90°",
+            "180°",
+            "360°"
+          ],
+          "answerIndex": 3,
+          "explanation": "Ein voller Kreis entspricht 360°."
+        },
+        {
+          "question": "Welcher Winkelbereich definiert einen stumpfen Winkel?",
+          "choices": [
+            "0° bis 90°",
+            "genau 90°",
+            "90° bis 180°",
+            "180° bis 360°"
+          ],
+          "answerIndex": 2,
+          "explanation": "Größer als 90° und kleiner als 180°."
+        },
+        {
+          "question": "Ein Winkel von 1° ist ein...",
+          "choices": [
+            "Nullwinkel",
+            "Spitzer Winkel",
+            "Rechter Winkel",
+            "Stumpfer Winkel"
+          ],
+          "answerIndex": 1,
+          "explanation": "Da er größer als 0° und kleiner als 90° ist, ist er spitz."
+        },
+        {
+          "question": "Ein Winkel von 179° ist ein...",
+          "choices": [
+            "Stumpfer Winkel",
+            "Gestreckter Winkel",
+            "Überstumpfer Winkel",
+            "Spitzer Winkel"
+          ],
+          "answerIndex": 0,
+          "explanation": "Da er kleiner als 180° und größer als 90° ist, ist er stumpf."
+        },
+        {
+          "question": "Welcher Winkel entspricht exakt 0°?",
+          "choices": [
+            "Voller Winkel",
+            "Nullwinkel",
+            "Gestreckter Winkel",
+            "Rechter Winkel"
+          ],
+          "answerIndex": 1,
+          "explanation": "Der Nullwinkel hat 0°."
+        },
+        {
+          "question": "Wie nennt man Winkel, die sich an einer Geradenkreuzung gegenüberliegen?",
+          "choices": [
+            "Nebenwinkel",
+            "Scheitelwinkel",
+            "Stufenwinkel",
+            "Wechselwinkel"
+          ],
+          "answerIndex": 1,
+          "explanation": "Gegenüberliegende Winkel heißen Scheitelwinkel."
+        },
+        {
+          "question": "Welche Eigenschaft haben Scheitelwinkel?",
+          "choices": [
+            "Ergeben zusammen 90°",
+            "Ergeben zusammen 180°",
+            "Sind immer gleich groß",
+            "Sind immer unterschiedlich"
+          ],
+          "answerIndex": 2,
+          "explanation": "Scheitelwinkel sind an einer Geradenkreuzung immer gleich groß."
+        },
+        {
+          "question": "Wie nennt man zwei Winkel, die nebeneinander liegen und eine Gerade bilden?",
+          "choices": [
+            "Nebenwinkel",
+            "Scheitelwinkel",
+            "Stufenwinkel",
+            "Z-Winkel"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sie liegen 'neben'einander und ergänzen sich zu 180°."
+        },
+        {
+          "question": "Was ergibt die Summe von zwei Nebenwinkeln?",
+          "choices": [
+            "90°",
+            "180°",
+            "270°",
+            "360°"
+          ],
+          "answerIndex": 1,
+          "explanation": "Zusammen bilden sie einen gestreckten Winkel, also 180°."
+        },
+        {
+          "question": "Ein Winkel an einer Kreuzung beträgt 40°. Wie groß ist sein Scheitelwinkel?",
+          "choices": [
+            "40°",
+            "50°",
+            "140°",
+            "320°"
+          ],
+          "answerIndex": 0,
+          "explanation": "Scheitelwinkel sind gleich groß."
+        },
+        {
+          "question": "Ein Winkel beträgt 50°. Wie groß ist sein Nebenwinkel?",
+          "choices": [
+            "40°",
+            "50°",
+            "130°",
+            "310°"
+          ],
+          "answerIndex": 2,
+          "explanation": "180° - 50° = 130°."
+        },
+        {
+          "question": "Was sind Stufenwinkel (F-Winkel)?",
+          "choices": [
+            "Winkel auf verschiedenen Seiten der Schneidenden",
+            "Winkel auf derselben Seite der Schneidenden in gleicher Lage",
+            "Winkel, die zusammen 180° ergeben",
+            "Gegenüberliegende Winkel"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sie heißen Stufenwinkel, weil sie wie Stufen übereinander liegen."
+        },
+        {
+          "question": "Wenn zwei parallele Geraden geschnitten werden, wie verhalten sich die Stufenwinkel zueinander?",
+          "choices": [
+            "Sie sind gleich groß",
+            "Summe ist 180°",
+            "Summe ist 90°",
+            "Sie sind verschieden"
+          ],
+          "answerIndex": 0,
+          "explanation": "Stufenwinkel an parallelen Geraden sind immer gleich groß."
+        },
+        {
+          "question": "Was sind Wechselwinkel (Z-Winkel)?",
+          "choices": [
+            "Winkel auf derselben Seite",
+            "Winkel auf verschiedenen Seiten der Schneidenden",
+            "Winkel nebeneinander",
+            "Scheitelwinkel"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sie liegen 'wechselseitig' an der schneidenden Geraden."
+        },
+        {
+          "question": "Wie verhalten sich Wechselwinkel an parallelen Geraden?",
+          "choices": [
+            "Summe ist 180°",
+            "Summe ist 90°",
+            "Sie sind gleich groß",
+            "Der eine ist doppelt so groß wie der andere"
+          ],
+          "answerIndex": 2,
+          "explanation": "Wechselwinkel an parallelen Geraden sind gleich groß."
+        },
+        {
+          "question": "Zwei Ergänzungswinkel (E-Winkel) an parallelen Geraden ergeben zusammen:",
+          "choices": [
+            "90°",
+            "180°",
+            "270°",
+            "360°"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ergänzungswinkel ergänzen sich zu einem gestreckten Winkel (180°)."
+        },
+        {
+          "question": "Ein Stufenwinkel beträgt 110°. Wie groß ist der dazugehörige Stufenwinkel an der Parallelen?",
+          "choices": [
+            "70°",
+            "110°",
+            "180°",
+            "55°"
+          ],
+          "answerIndex": 1,
+          "explanation": "Stufenwinkel sind gleich groß, also 110°."
+        },
+        {
+          "question": "Ein Wechselwinkel beträgt 65°. Wie groß ist der andere Wechselwinkel?",
+          "choices": [
+            "25°",
+            "65°",
+            "115°",
+            "180°"
+          ],
+          "answerIndex": 1,
+          "explanation": "Wechselwinkel an Parallelen sind gleich groß."
+        },
+        {
+          "question": "Winkel α und β sind Nebenwinkel. α = 100°. Wie groß ist β?",
+          "choices": [
+            "80°",
+            "100°",
+            "180°",
+            "260°"
+          ],
+          "answerIndex": 0,
+          "explanation": "180° - 100° = 80°."
+        },
+        {
+          "question": "Winkel α und β sind Scheitelwinkel. α = 33°. Wie groß ist β?",
+          "choices": [
+            "33°",
+            "57°",
+            "147°",
+            "327°"
+          ],
+          "answerIndex": 0,
+          "explanation": "Scheitelwinkel sind immer gleich groß."
+        },
+        {
+          "question": "Was bedeutet g ⟂ h?",
+          "choices": [
+            "g ist parallel zu h",
+            "g ist senkrecht zu h",
+            "g ist länger als h",
+            "g schneidet h nicht"
+          ],
+          "answerIndex": 1,
+          "explanation": "Das Symbol ⟂ steht für senkrecht (90°-Winkel)."
+        },
+        {
+          "question": "Was bedeutet g ∥ h?",
+          "choices": [
+            "g ist parallel zu h",
+            "g ist senkrecht zu h",
+            "g ist kürzer als h",
+            "g und h sind identisch"
+          ],
+          "answerIndex": 0,
+          "explanation": "Das Symbol ∥ steht für parallel."
+        },
+        {
+          "question": "Welche Eigenschaft haben parallele Geraden?",
+          "choices": [
+            "Sie schneiden sich im 90° Winkel",
+            "Sie haben überall den gleichen Abstand",
+            "Sie treffen sich in einem Punkt",
+            "Ihr Abstand wird immer größer"
+          ],
+          "answerIndex": 1,
+          "explanation": "Parallele Geraden haben überall den gleichen Abstand und schneiden sich nie."
+        },
+        {
+          "question": "Wie nennt man ein Dreieck, bei dem alle Winkel kleiner als 90° sind?",
+          "choices": [
+            "Stumpfwinkliges Dreieck",
+            "Rechtwinkliges Dreieck",
+            "Spitzwinkliges Dreieck",
+            "Gleichschenkliges Dreieck"
+          ],
+          "answerIndex": 2,
+          "explanation": "Alle Winkel spitz -> spitzwinklig."
+        },
+        {
+          "question": "Was zeichnet ein rechtwinkliges Dreieck aus?",
+          "choices": [
+            "Alle Winkel sind 90°",
+            "Zwei Winkel sind 90°",
+            "Ein Winkel ist genau 90°",
+            "Kein Winkel ist 90°"
+          ],
+          "answerIndex": 2,
+          "explanation": "Es besitzt genau einen rechten Winkel (90°)."
+        },
+        {
+          "question": "Kann ein Dreieck zwei stumpfe Winkel haben?",
+          "choices": [
+            "Ja",
+            "Nein",
+            "Nur wenn es sehr groß ist",
+            "Manchmal"
+          ],
+          "answerIndex": 1,
+          "explanation": "Nein, da die Winkelsumme im Dreieck nur 180° beträgt (zwei stumpfe Winkel wären zusammen >180°)."
+        },
+        {
+          "question": "Was gilt für ein gleichschenkliges Dreieck?",
+          "choices": [
+            "Alle drei Seiten sind gleich",
+            "Zwei Seiten sind gleich lang",
+            "Keine Seite ist gleich lang",
+            "Ein Winkel muss 90° sein"
+          ],
+          "answerIndex": 1,
+          "explanation": "Zwei gleich lange Seiten (Schenkel) und zwei gleich große Basiswinkel."
+        },
+        {
+          "question": "Was gilt in einem gleichseitigen Dreieck?",
+          "choices": [
+            "Nur zwei Seiten sind gleich",
+            "Alle drei Seiten sind gleich lang",
+            "Es gibt einen rechten Winkel",
+            "Die Winkel sind unterschiedlich"
+          ],
+          "answerIndex": 1,
+          "explanation": "Gleichseitig bedeutet: alle 3 Seiten gleich lang, alle 3 Winkel 60°."
+        },
+        {
+          "question": "Wie groß ist jeder Winkel in einem gleichseitigen Dreieck?",
+          "choices": [
+            "45°",
+            "60°",
+            "90°",
+            "120°"
+          ],
+          "answerIndex": 1,
+          "explanation": "180° / 3 = 60°."
+        },
+        {
+          "question": "Wie hoch ist die Winkelsumme in jedem Dreieck?",
+          "choices": [
+            "90°",
+            "180°",
+            "270°",
+            "360°"
+          ],
+          "answerIndex": 1,
+          "explanation": "Die Innenwinkel addieren sich immer zu 180°."
+        },
+        {
+          "question": "In einem Dreieck sind α = 50° und β = 70°. Wie groß ist γ?",
+          "choices": [
+            "50°",
+            "60°",
+            "70°",
+            "80°"
+          ],
+          "answerIndex": 1,
+          "explanation": "180° - 50° - 70° = 60°."
+        },
+        {
+          "question": "In einem Dreieck sind α = 90° und β = 35°. Wie groß ist γ?",
+          "choices": [
+            "45°",
+            "55°",
+            "65°",
+            "90°"
+          ],
+          "answerIndex": 1,
+          "explanation": "180° - 90° - 35° = 55°."
+        },
+        {
+          "question": "In einem gleichschenkligen Dreieck sind die Basiswinkel gleich groß. Die Spitze beträgt 40°. Wie groß ist ein Basiswinkel?",
+          "choices": [
+            "40°",
+            "70°",
+            "140°",
+            "80°"
+          ],
+          "answerIndex": 1,
+          "explanation": "(180° - 40°) / 2 = 140° / 2 = 70°."
+        },
+        {
+          "question": "Ein Dreieck hat die Winkel 110°, 40° und 30°. Welche Art Dreieck ist das?",
+          "choices": [
+            "Spitzwinkliges Dreieck",
+            "Rechtwinkliges Dreieck",
+            "Stumpfwinkliges Dreieck",
+            "Gleichschenkliges Dreieck"
+          ],
+          "answerIndex": 2,
+          "explanation": "Da ein Winkel (110°) größer als 90° ist, ist es stumpfwinklig."
+        },
+        {
+          "question": "Ein Dreieck hat die Winkel 45°, 45° und 90°. Wie nennt man es?",
+          "choices": [
+            "Nur spitzwinklig",
+            "Gleichschenklig-rechtwinklig",
+            "Gleichseitig",
+            "Stumpfwinklig"
+          ],
+          "answerIndex": 1,
+          "explanation": "Es hat einen 90° Winkel (rechtwinklig) und zwei gleich große Winkel (gleichschenklig)."
+        },
+        {
+          "question": "Wie berechnet man den Flächeninhalt eines Dreiecks im Koordinatensystem mit Vektoren?",
+          "choices": [
+            "A = |Determinante|",
+            "A = 0.5 * |Determinante|",
+            "A = 2 * |Determinante|",
+            "A = Determinante * Determinante"
+          ],
+          "answerIndex": 1,
+          "explanation": "Die Formel lautet A = 0,5 * |Determinante|."
+        },
+        {
+          "question": "Welche Vektoren braucht man meist für die Determinante im Dreieck ABC?",
+          "choices": [
+            "AB und BC",
+            "AB und AC",
+            "BC und CA",
+            "AA und BB"
+          ],
+          "answerIndex": 1,
+          "explanation": "Meist spannt man die Vektoren vom selben Punkt aus auf, z.B. AB und AC."
+        },
+        {
+          "question": "Wie bildet man die Determinante aus zwei Vektoren v=(ax, ay) und w=(bx, by)?",
+          "choices": [
+            "ax*bx - ay*by",
+            "ax*by + bx*ay",
+            "ax*by - bx*ay",
+            "ax/bx - ay/by"
+          ],
+          "answerIndex": 2,
+          "explanation": "Die Determinante ist (ax * by) - (bx * ay)."
+        },
+        {
+          "question": "Warum setzt man die Determinante in Betragsstriche |...|?",
+          "choices": [
+            "Weil Flächeninhalte nicht negativ sein können",
+            "Weil das schöner aussieht",
+            "Weil Vektoren keine Zahlen sind",
+            "Weil man durch 2 teilen muss"
+          ],
+          "answerIndex": 0,
+          "explanation": "Der Betrag stellt sicher, dass das Ergebnis positiv ist, da eine Fläche nicht negativ sein kann."
+        },
+        {
+          "question": "Wie berechnet man den Flächeninhalt eines beliebigen Vierecks?",
+          "choices": [
+            "A = Grundlinie * Höhe",
+            "A = Länge * Breite",
+            "Man zerlegt es in zwei Dreiecke und addiert deren Flächen",
+            "Man bildet eine große Determinante mit 4 Vektoren"
+          ],
+          "answerIndex": 2,
+          "explanation": "Die einfachste Methode ist die Zerlegung in zwei Dreiecke (z.B. ABC und ACD)."
+        },
+        {
+          "question": "Wie lautet die Formel für den Flächeninhalt eines Parallelogramms aufgespannt von AB und AD?",
+          "choices": [
+            "A = 0.5 * |Determinante|",
+            "A = |Determinante|",
+            "A = 2 * |Determinante|",
+            "A = AB * AD / 2"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ein Parallelogramm besteht aus zwei kongruenten Dreiecken, daher fällt der Faktor 0.5 weg: A = |Determinante|."
+        },
+        {
+          "question": "Wenn die Determinante zweier Vektoren für ein Dreieck -24 ergibt, wie groß ist der Flächeninhalt?",
+          "choices": [
+            "-24 FE",
+            "-12 FE",
+            "12 FE",
+            "24 FE"
+          ],
+          "answerIndex": 2,
+          "explanation": "A = 0.5 * |-24| = 0.5 * 24 = 12."
+        },
+        {
+          "question": "Ein Viereck ABCD wird zerlegt in Dreieck ABC (Fläche 15 FE) und Dreieck ACD (Fläche 10 FE). Wie groß ist das Viereck?",
+          "choices": [
+            "5 FE",
+            "12.5 FE",
+            "25 FE",
+            "150 FE"
+          ],
+          "answerIndex": 2,
+          "explanation": "Die Gesamtfläche ist die Summe der Teilflächen: 15 + 10 = 25 FE."
+        },
+        {
+          "question": "Ein Parallelogramm wird von zwei Vektoren aufgespannt. Die Determinante ist 40. Wie groß ist die Fläche?",
+          "choices": [
+            "20 FE",
+            "40 FE",
+            "80 FE",
+            "-40 FE"
+          ],
+          "answerIndex": 1,
+          "explanation": "Beim Parallelogramm: A = |Determinante| = |40| = 40 FE."
+        },
+        {
+          "question": "Welche Angabe fehlt oft bei einer Koordinatenaufgabe, wenn du eine Skizze machen sollst?",
+          "choices": [
+            "Die x-Achse",
+            "Das Ergebnis der Determinante",
+            "Punkte im Koordinatensystem einzeichnen",
+            "Der Flächeninhalt des Nullwinkels"
+          ],
+          "answerIndex": 2,
+          "explanation": "Typischerweise muss man in solchen Aufgaben zuerst die Punkte im Koordinatensystem einzeichnen."
+        }
+      ]
     }
-  ]
-}
   ]
 }

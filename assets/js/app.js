@@ -14,7 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.documentElement.style.setProperty('--accent-color', data.accent);
                 const subjectTitle = document.getElementById('subject-title'); if(subjectTitle) subjectTitle.textContent = data.subject;
                 const bcSubject = document.getElementById('bc-subject'); if(bcSubject) bcSubject.textContent = data.subject;
-                renderSubjectContent(data, subjectContainer); setupSearch(data, subjectContainer); setupEditor(data);
+                const rerender = updated => { renderSubjectContent(updated, subjectContainer); };
+                renderSubjectContent(data, subjectContainer);
+                setupSearch(data, subjectContainer);
+                setupEditor(data, rerender);
             } else subjectContainer.innerHTML = '<p class="text-center mt-4">Inhalte werden bald hinzugefügt!</p>';
         });
     }

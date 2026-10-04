@@ -1,6 +1,7 @@
 import { loadSubjectData } from './content-loader.js';
 import { renderSubjectContent, setupSearch } from './ui.js';
 import { setupEditor } from './editor.js';
+import { setupPublisher } from './publisher.js';
 
 const editorCss=document.createElement('link');editorCss.rel='stylesheet';editorCss.href=new URL('../css/editor.css',import.meta.url).href;document.head.appendChild(editorCss);
 
@@ -18,6 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 renderSubjectContent(data, subjectContainer);
                 setupSearch(data, subjectContainer);
                 setupEditor(data, rerender);
+                setupPublisher(data);
             } else subjectContainer.innerHTML = '<p class="text-center mt-4">Inhalte werden bald hinzugefügt!</p>';
         });
     }

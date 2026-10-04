@@ -1,84 +1,31 @@
-export function setupEditor(currentData) {
-    const editorBtn = document.getElementById('open-editor-btn');
-    const modal = document.getElementById('editor-modal');
-    const closeBtn = document.getElementById('close-editor');
-    const exportBtn = document.getElementById('export-json');
-    const form = document.getElementById('editor-form');
+let cardCount = 1;
+const slugify = s => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+const parseTable = text => { const rows=text.trim().split('\n').filter(Boolean).map(r=>r.split('\t')); return rows.length>1 ? {headers:rows[0],rows:rows.slice(1)} : null; };
+const saveJson = (data,name) => { const a=document.createElement('a'); a.href='data:application/json;charset=utf-8,'+encodeURIComponent(JSON.stringify(data,null,2)); a.download=name; a.click(); };
 
-    if (!editorBtn || !modal) return;
+function normalize(obj,current){
+  if(Array.isArray(obj.topics)) return obj;
+  const topic=obj.topic||obj;
+  if(!topic.title) throw new Error('Thementitel fehlt.');
+  topic.id=topic.id||slugify(topic.title);
+  return {...current,schemaVersion:2,topics:[...(current.topics||[]).filter(t=>t.id!==topic.id&&t.title!==topic.title),topic]};
+}
 
-    editorBtn.addEventListener('click', () => {
-        modal.classList.add('active');
-    });
+function addCardRow(){
+  const box=document.getElementById('editor-flashcards');
+  const i=cardCount++;
+  box.insertAdjacentHTML('beforeend',`<div class="editor-card"><div class="editor-card-head"><strong>Lernkarte</strong><button type="button" class="icon-btn remove-editor-card">×</button></div><div class="editor-grid"><textarea class="form-control fc-front" placeholder="Vorderseite / Frage"></textarea><textarea class="form-control fc-back" placeholder="Rückseite / Antwort"></textarea></div><div class="editor-grid"><input class="form-control fc-image" placeholder="Bild-URL oder Repository-Pfad (optional)"><input class="form-control fc-alt" placeholder="Bildbeschreibung (optional)"></div><textarea class="form-control fc-table" placeholder="Tabelle optional: Kopf 1[TAB]Kopf 2&#10;Wert 1[TAB]Wert 2"></textarea></div>`);
+  box.lastElementChild.querySelector('.remove-editor-card').onclick=e=>e.target.closest('.editor-card').remove();
+}
 
-    closeBtn.addEventListener('click', () => {
-        modal.classList.remove('active');
-    });
+function buildModal(){return `<div class="modal-content editor-pro"><button class="modal-close" id="close-editor">&times;</button><h2>Inhalte verwalten</h2><div class="editor-tabs"><button type="button" class="editor-tab active" data-pane="manual">Manuell</button><button type="button" class="editor-tab" data-pane="import">KI / JSON</button></div><section class="editor-pane active" id="pane-manual"><div class="editor-grid"><input id="topic-title" class="form-control" placeholder="Thementitel"><input id="topic-id" class="form-control" placeholder="ID optional"></div><textarea id="topic-summary" class="form-control" placeholder="Zusammenfassung – ein Lernpunkt pro Zeile"></textarea><div class="editor-section-head"><h3>Lernkarten</h3><button type="button" class="btn btn-secondary" id="add-card">+ Karte</button></div><div id="editor-flashcards"></div><h3>Quizfrage (optional)</h3><input id="quiz-q" class="form-control" placeholder="Frage"><div class="editor-grid four"><input id="quiz-c1" class="form-control" placeholder="Antwort 1"><input id="quiz-c2" class="form-control" placeholder="Antwort 2"><input id="quiz-c3" class="form-control" placeholder="Antwort 3"><input id="quiz-c4" class="form-control" placeholder="Antwort 4"></div><div class="editor-grid"><select id="quiz-answer" class="form-control"><option value="0">Antwort 1 richtig</option><option value="1">Antwort 2 richtig</option><option value="2">Antwort 3 richtig</option><option value="3">Antwort 4 richtig</option></select><input id="quiz-exp" class="form-control" placeholder="Erklärung"></div><button type="button" class="btn btn-primary editor-save" id="export-json">Fach-JSON exportieren</button></section><section class="editor-pane" id="pane-import"><p>Füge hier ein von ChatGPT erzeugtes Lernpaket oder ein komplettes Fach-JSON ein.</p><textarea id="json-paste" class="form-control code-input" placeholder='{"schemaVersion":2,"topic":{"title":"..."}}'></textarea><input type="file" id="json-file" class="form-control" accept=".json,application/json"><div id="import-status" class="import-status">Noch nicht geprüft.</div><div class="editor-actions"><button type="button" class="btn btn-secondary" id="validate-json">Prüfen</button><button type="button" class="btn btn-primary" id="import-json">Importieren & exportieren</button></div><details class="schema-help"><summary>KI-Format anzeigen</summary><pre>{"schemaVersion":2,"grade":7,"subject":"Kunst","topic":{"id":"romanik","title":"Romanik","summary":["..."],"flashcards":[{"front":{"text":"Frage","image":{"src":"assets/images/bild.jpg","alt":"Beschreibung"}},"back":{"text":"Antwort","table":{"headers":["A","B"],"rows":[["1","2"]]}}}],"quiz":[{"question":"...","choices":["A","B","C","D"],"answerIndex":0,"explanation":"..."}]}}</pre></details></section></div>`;}
 
-    // Close on click outside
-    modal.addEventListener('click', (e) => {
-        if (e.target === modal) {
-            modal.classList.remove('active');
-        }
-    });
-
-    exportBtn.addEventListener('click', () => {
-        const title = document.getElementById('topic-title').value;
-        const summaryText = document.getElementById('topic-summary').value;
-
-        if (!title || !summaryText) {
-            alert('Bitte fülle mindestens Titel und Zusammenfassung aus.');
-            return;
-        }
-
-        const summary = summaryText.split('\n').filter(line => line.trim() !== '');
-
-        const fcQ = document.getElementById('fc-q')?.value;
-        const fcA = document.getElementById('fc-a')?.value;
-        const flashcards = [];
-        if (fcQ && fcA) {
-            flashcards.push({ q: fcQ, a: fcA });
-        }
-
-        const quizQ = document.getElementById('quiz-q')?.value;
-        const quizC1 = document.getElementById('quiz-c1')?.value;
-        const quizC2 = document.getElementById('quiz-c2')?.value;
-        const quizC3 = document.getElementById('quiz-c3')?.value;
-        const quizC4 = document.getElementById('quiz-c4')?.value;
-        const quizAnswer = parseInt(document.getElementById('quiz-answer')?.value || "0");
-        const quizExp = document.getElementById('quiz-exp')?.value;
-
-        const quiz = [];
-        if (quizQ && quizC1 && quizC2 && quizC3 && quizC4) {
-            quiz.push({
-                question: quizQ,
-                choices: [quizC1, quizC2, quizC3, quizC4],
-                answerIndex: quizAnswer,
-                explanation: quizExp || ""
-            });
-        }
-
-        const newTopic = {
-            id: `topic-${Date.now()}`,
-            title: title,
-            summary: summary,
-            flashcards: flashcards,
-            quiz: quiz
-        };
-
-        const updatedData = { ...currentData };
-        updatedData.topics = [...updatedData.topics, newTopic];
-
-        const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(updatedData, null, 2));
-        const downloadAnchorNode = document.createElement('a');
-        downloadAnchorNode.setAttribute("href",     dataStr);
-        downloadAnchorNode.setAttribute("download", `${currentData.slug}.json`);
-        document.body.appendChild(downloadAnchorNode); // required for firefox
-        downloadAnchorNode.click();
-        downloadAnchorNode.remove();
-
-        modal.classList.remove('active');
-        form.reset();
-        alert('Erfolgreich exportiert! Lade die Datei nach /data/grade-7/ herunter, um sie zu ersetzen.');
-    });
+export function setupEditor(currentData){
+ const btn=document.getElementById('open-editor-btn'),modal=document.getElementById('editor-modal'); if(!btn||!modal)return;
+ btn.textContent='Inhalte verwalten'; modal.innerHTML=buildModal(); addCardRow();
+ btn.onclick=()=>modal.classList.add('active'); document.getElementById('close-editor').onclick=()=>modal.classList.remove('active'); modal.onclick=e=>{if(e.target===modal)modal.classList.remove('active');};
+ document.querySelectorAll('.editor-tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.editor-tab,.editor-pane').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.getElementById('pane-'+b.dataset.pane).classList.add('active');});
+ document.getElementById('add-card').onclick=addCardRow;
+ document.getElementById('export-json').onclick=()=>{const title=document.getElementById('topic-title').value.trim();if(!title)return alert('Bitte Thementitel eingeben.');const flashcards=[...document.querySelectorAll('.editor-card')].map(el=>{const front={text:el.querySelector('.fc-front').value.trim()},back={text:el.querySelector('.fc-back').value.trim()};const src=el.querySelector('.fc-image').value.trim(),alt=el.querySelector('.fc-alt').value.trim(),table=parseTable(el.querySelector('.fc-table').value);if(src)front.image={src,alt:alt||'Lernbild'};if(table)back.table=table;return {front,back};}).filter(c=>c.front.text||c.back.text||c.front.image||c.back.table);const topic={id:document.getElementById('topic-id').value.trim()||slugify(title),title,summary:document.getElementById('topic-summary').value.split('\n').map(x=>x.trim()).filter(Boolean),flashcards,quiz:[]};const q=document.getElementById('quiz-q').value.trim(),choices=[1,2,3,4].map(i=>document.getElementById('quiz-c'+i).value.trim());if(q&&choices.every(Boolean))topic.quiz.push({question:q,choices,answerIndex:+document.getElementById('quiz-answer').value,explanation:document.getElementById('quiz-exp').value.trim()});saveJson(normalize({topic},currentData),currentData.slug+'.json');};
+ const paste=document.getElementById('json-paste'),status=document.getElementById('import-status');document.getElementById('json-file').onchange=async e=>{paste.value=await e.target.files[0].text();status.textContent='Datei geladen.';};const parse=()=>JSON.parse(paste.value);document.getElementById('validate-json').onclick=()=>{try{const d=normalize(parse(),currentData),t=d.topics[d.topics.length-1];status.textContent=`✓ ${t.title}: ${(t.summary||[]).length} Lernpunkte, ${(t.flashcards||[]).length} Karten, ${(t.quiz||[]).length} Quizfragen`;status.classList.add('ok');}catch(e){status.textContent='Fehler: '+e.message;status.classList.remove('ok');}};document.getElementById('import-json').onclick=()=>{try{saveJson(normalize(parse(),currentData),currentData.slug+'.json');status.textContent='✓ Import gültig – Fach-JSON exportiert.';}catch(e){status.textContent='Fehler: '+e.message;}};
 }
